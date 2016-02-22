@@ -25,7 +25,7 @@ Other items that are not required by preferred:
 - Access to Costco membership (through family or otherwise)
 
 ## Compensation
-The Support Staff will be given a $400.00 stipend for each week of camp worked. This stipen will be paid in a single lump sum at the end of camp. Bonus compensation is available based on performance.
+The Support Staff will be given a $500.00 stipend for each week of camp worked. This stipen will be paid in a single lump sum at the end of camp. Bonus compensation is available based on performance.
 
 ## Work Life
 A typical day for Support Staff will involve arriving in the morning at 7:00am and going to each room to set up. Support Staff will meet with the Camp Director to overview the status of the camp’s food/beverage inventory and any discuss any assignments for that day. Support Staff will then finish setting up for campers by the time the day starts at 9:00am.
