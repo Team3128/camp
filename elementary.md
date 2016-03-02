@@ -25,13 +25,10 @@ engineering, and mathematics using  their own LEGO® kits. In between the
 learnings, we will also head outside for some awesome games and fun.
 
 ## Week Information
-The week currently available are:
+The weeks currently offered are:
 
-- July 5th – 8th
-- July 11th – 15th
-- July 18th – 22nd
-- July 25th – July 29th
-- August 1st – August 5th
+{% for week in site.data.weeks %}
+- {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
 
 
 ## Registration

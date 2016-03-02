@@ -24,13 +24,10 @@ This summer, we’re proud to offer a week of fun where campers can come and bui
 Not only will we get students going on build robots, they’ll also get to compete against each other by trying to score the most points in our end of the week competition. And every step of the way we’ll have counselors and staff alongside them to make sure they get the guidance they need to reach their goal.
 
 ## Week Information
-The week currently available are:
+The weeks currently offered are:
 
-- July 5th – 8th
-- July 11th – 15th
-- July 18th – 22nd
-- July 25th – July 29th
-- August 1st – August 5th
+{% for week in site.data.weeks %}
+- {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
 
 ## Registration
 Registration is currently not open. Here are some important dates you should know:
