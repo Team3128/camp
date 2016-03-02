@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Preteen Camp
+title: 5th & 6th
 permalink: /preteen/
+show_front: true
 
 ---
 

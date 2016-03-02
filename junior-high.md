@@ -1,14 +1,15 @@
 ---
 layout: page
-title: Junior High Camp
+title: 7th & 8th
 permalink: /junior-high/
+show_front: true
 
 ---
 
 ## Overview
 **Ages:** 12 – 14 years old  
 **Dates:** July 5th – August 5th  
-  
+
 **Times:** 9:00am – 3:00pm (Drop-off starts at 8:30am, Pick-up ends at 3:30pm)  
 **Location:** Canyon Crest Academy  
 **Rates:** $450 – (Join Wait list)  

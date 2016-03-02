@@ -1,14 +1,15 @@
 ---
 layout: page
-title: Elementary Camp
+title: 1st - 4th
 permalink: /elementary/
+show_front: true
 
 ---
 
 ## Overview
 **Ages:** 6 – 10 years old  
 **Dates:** July 5th – August 5th  
-  
+
 **Times:** 9:00am – 3:00pm (Drop-off starts at 8:30am, Pick-up ends at 3:30pm)  
 **Location:** Canyon Crest Academy  
 **Rates:** $395 (See Below)  

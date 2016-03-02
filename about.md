@@ -2,6 +2,7 @@
 layout: page
 title: Our Camp
 permalink: /about/
+show_front: true
 ---
 
 ![7/8th Campers]({{ site.url }}/assets/78_campers1.JPG)
