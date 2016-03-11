@@ -23,7 +23,7 @@ Other items that are not required but preferred:
 
 
 ## Compensation
-The Room Leader will be given a $500.00 stipend for each week of camp worked. This stipen will be paid in a single lump sum at the end of camp. Bonus compensation is available based on performance.
+The Room Leader will be given a $600.00 stipend for each week of camp worked. This stipen will be paid in a single lump sum at the end of camp. Bonus compensation is available based on performance.
 
 ## Work Life
 A typical day for a Room Leader starts at 7:00am with a staff meeting with the Camp Director to overview the day and any special tasks that need to be carried out. Afterwards Room Leaders will lead individual room Counselor Meetings to communicate to the Volunteer Counselors the activities happening during the day and any special information they need.
