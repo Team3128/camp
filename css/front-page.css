@@ -21,25 +21,22 @@
 }
 
 .front-grid .choose-program h2 {
+  margin-bottom: .3em;
   text-align: center;
 }
 
 .front-grid .choose-program .button {
+  background-color: #EEEEEF;
+  color: #666;
   width: 15em;
+  font-weight: bold;
 }
 
-.front-grid .choose-program .button.elementary {
-  background-color: #04B431;
+.front-grid .choose-program .button:hover {
+  background-color: #F68A0C;
+  color: #fff;
 }
 
-.front-grid .choose-program .button.preteen {
-  background-color: #2E9AFE;
-}
-
-.front-grid .choose-program .button.middle {
-  background-color: #B40431;
-}
-
-.top-bar, .top-bar ul, .top-bar ul li {
-  background-color: #333;
+.front-grid .button {
+  background-color: #D4600B;
 }
