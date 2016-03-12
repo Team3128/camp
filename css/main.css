@@ -1,0 +1,64 @@
+.top-bar {
+  background-color: #333;
+  color: #FFF;
+}
+
+.top-bar .submenu {
+  display: none;
+}
+
+.top-bar a {
+  color: #fff;
+}
+
+.menu-text {
+  color: #fff;
+}
+
+@media only screen and (max-width: 40em) {
+  .menu-text {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 40em) {
+.top-bar .menu:last-child {
+  border-left: 1px solid #4e4e4e;
+}
+
+.top-bar .menu:first-child {
+  border-left: none;
+}
+
+.top-bar .menu li:not(:last-child) {
+  border-right: 1px solid #4e4e4e;
+}
+}
+
+.dropdown.menu .submenu {
+border: none;
+}
+
+.dropdown.menu .is-dropdown-submenu-parent.is-right-arrow > a::after {
+border-color: #fff transparent transparent;
+}
+
+.is-drilldown-submenu-parent > a::after {
+border-color: transparent transparent transparent #fff;
+}
+
+.js-drilldown-back::before {
+border-color: transparent #fff transparent transparent;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: .9em;
+  padding: 1em;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
