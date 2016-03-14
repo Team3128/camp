@@ -1,6 +1,6 @@
 .top-bar {
   color: #FFF;
-  border-bottom: 5px solid #EEEEEF;
+  border-bottom: 5px solid #CCCCCC;
 }
 
 .top-bar, .top-bar ul, .top-bar ul li {
@@ -25,6 +25,35 @@
 
 .menu-text {
   color: #fff;
+}
+
+.title {
+  background-color: #EEEEEE;
+  padding-left: 8px;
+  padding-top: 6px;
+  margin-bottom: 5px;
+}
+
+.title h1 {
+  font-size: 1.3em;
+}
+
+.masthead {
+  border-top: 1px solid #EEEEEF;
+  border-bottom: 1px solid #EEEEEF;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.masthead-image {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.masthead-image img {
+  width: 100%;
 }
 
 footer {
