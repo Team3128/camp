@@ -26,4 +26,9 @@ The weeks currently offered are:
 - {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
 
 ## Registration
-Registration is currently not open. Priority Registration for returning campers will begin on March 7th. General Registration will open on March 21st. You can sign up on our interest form to get notified when registration is open. Also check out our registration policies for information on payments, cancellations, etc.
+Registration is currently not open. Here are some important dates you should know:
+
+- **Priority Registration** for returning campers will begin on {{ site.priority_register_open_date_string }}.
+- **General Registration** will open on {{ site.general_register_open_date_string }}.
+
+You can sign up on our [interest form]({{ site.interest_form_url }}) to get notified when registration is open. Also check out our registration policies for information on payments, cancellations, etc.
