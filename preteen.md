@@ -1,12 +1,10 @@
 ---
-layout: page
-title: 5th & 6th
+layout: program-page
+title: Preteen (5th & 6th)
 permalink: /preteen/
 show_front: true
-
+header_image: /assets/wide/IMG_1340.jpg
 ---
-
-![5/6th Campers]({{ site.url }}/assets/56_campers6.JPG)
 
 ## Overview
 **Ages:** 10 – 12 years old  
@@ -18,8 +16,6 @@ show_front: true
 **Includes:** Daily snacks and lunches, camp t-shirt, and a week of awesome fun.  
 
 This summer, we’re proud to offer a week of fun where campers can come and build awesome robots, run around, and have fun. All week we’ll be using VEX IQ robot sets to build robot that complete complex challenges that teach campers mechanical and programming skills, while getting them excited about engineering and technology.
-
-![5/6th Campers]({{ site.url }}/assets/56_campers5.JPG)
 
 Not only will we get students going on build robots, they’ll also get to compete against each other by trying to score the most points in our end of the week competition. And every step of the way we’ll have counselors and staff alongside them to make sure they get the guidance they need to reach their goal.
 
@@ -36,5 +32,3 @@ Registration is currently not open. Here are some important dates you should kno
 - **General Registration** will open on March 21st.
 
 You can sign up on our interest form to get notified when registration is open. Also check out our registration policies for information on payments, cancellations, etc.
-
-![7/8th Campers]({{ site.url }}/assets/56_campers7.JPG)

@@ -1,7 +1,7 @@
 ---
-layout: page
-title: 7th & 8th
-permalink: /junior-high/
+layout: program-page
+title: Middle School (7th & 8th)
+permalink: /middle-school/
 show_front: true
 
 ---
