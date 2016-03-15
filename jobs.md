@@ -28,6 +28,6 @@ Our Room Leaders bring knowledge, energy, and order to each group of our campers
 and counselors. They ensure that the different activities during the day run
 smoothly while bringing engagement and fun to the camp. [Learn More](room-leader/)
 
-###Support Staff
+### Support Staff
 Our Support Staff are key to making the rest of camp function properly by
 distributing amenities to the different on-site areas where our camp operates. [Learn More](support-staff/)
