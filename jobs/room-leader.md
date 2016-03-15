@@ -24,7 +24,7 @@ Applicants must be available for the majority of the following camp weeks:
 
 {% for week in site.data.weeks %}
 
-{{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
+{{ week.start_date }} - {{ week.end_date }}{% endfor %}
 
 Applicants must also be available the week before for a preparation week (paid).
 
