@@ -28,7 +28,7 @@ Applicants must be available for the majority of the following camp weeks:
 
 Applicants must also be available the week before for a preparation week (paid).
 
-Other items that are not required by preferred:
+Other items that are not required but are preferred:
 
 - Be 18 years or older.</li>
 - Access to working vehicle and valid driver’s license</li>
