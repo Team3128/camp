@@ -19,15 +19,15 @@ and references.
 Our Volunteer Counselors are essential for guiding students through the engaging
 world of the technology and robotics. Volunteers help students during their week
 and engage them through the daily robot challenges and various games. Free
-lunch included. [Learn More](volunteer/)
+lunch included. [Learn More](volunteer)
 
 ## Paid Openings
 
 ### Room Leader
 Our Room Leaders bring knowledge, energy, and order to each group of our campers
 and counselors. They ensure that the different activities during the day run
-smoothly while bringing engagement and fun to the camp. [Learn More](room-leader/)
+smoothly while bringing engagement and fun to the camp. [Learn More](room-leader)
 
 ### Support Staff
 Our Support Staff are key to making the rest of camp function properly by
-distributing amenities to the different on-site areas where our camp operates. [Learn More](support-staff/)
+distributing amenities to the different on-site areas where our camp operates. [Learn More](support-staff)
