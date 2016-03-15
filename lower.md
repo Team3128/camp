@@ -3,7 +3,7 @@ layout: program-page
 title: Curiosity (5th & 6th)
 permalink: /lower/
 show_front: true
-header_image: /assets/wide/IMG_1340.jpg
+header_image: /assets/wide/IMG_2146.jpg
 ---
 
 ## Overview

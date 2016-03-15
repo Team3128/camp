@@ -3,7 +3,6 @@ layout: program-page
 title: Elementary (1st - 4th)
 permalink: /elementary/
 show_front: true
-header_image: /assets/56_campers5.jpg
 
 ---
 

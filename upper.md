@@ -3,6 +3,7 @@ layout: program-page
 title: Opportunity (7th & 8th)
 permalink: /upper/
 show_front: true
+header_image: /assets/wide/IMG_0741.jpg
 
 ---
 
