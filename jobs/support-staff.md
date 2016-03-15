@@ -15,10 +15,18 @@ The responsibilities of our Support Staff include, but are not limited to:
 - Attending daily support team meetings
 - Various miscellaneous jobs
 
+#### Requirements
 
 All applicants for this position must, as of June 1st, 2016:
 
 - Have (or acquire) a valid first aid and CPR certification. (Focus in pediatric preferred)</li>
+
+Applicants must be available for the majority of the following camp weeks:
+
+{% for week in site.data.weeks %}
+- {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
+
+Applicants must also be available the week before for a preparation week (paid).
 
 Other items that are not required by preferred:
 
