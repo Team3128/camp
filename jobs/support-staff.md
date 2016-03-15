@@ -19,7 +19,7 @@ The responsibilities of our Support Staff include, but are not limited to:
 
 All applicants for this position must, as of June 1st, 2016:
 
-- Have (or acquire) a valid first aid and CPR certification. (Focus in pediatric preferred)</li>
+- Have (or acquire) a valid first aid and CPR certification. (Focus in pediatric preferred)
 
 Applicants must be available for the majority of the following camp weeks:
 
@@ -30,9 +30,9 @@ Applicants must also be available the week before for a preparation week (paid).
 
 Other items that are not required but are preferred:
 
-- Be 18 years or older.</li>
-- Access to working vehicle and valid driver’s license</li>
-- Access to Costco membership (through family or otherwise)</li>
+- Be 18 years or older.
+- Access to working vehicle and valid driver’s license.
+- Access to Costco membership (through family or otherwise).
 
 #### Compensation
 The Support Staff will be given a $500.00 stipend for each week of camp worked.
