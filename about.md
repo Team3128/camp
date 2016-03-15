@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about-page
 title: Our Camp
 permalink: /about/
 show_front: true
