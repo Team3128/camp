@@ -8,4 +8,4 @@ Thank you so much for your interest in our Robotics Summer Camp. Here's some qui
 - **General Registration** opens for new campers on *March 21st*.
 - You can sign up to be on our [interest list](http://goo.gl/forms/IWGJdmVkcc) and receive an update when registration opens or when new information becomes available about camp.
 
-P.S. Our website will be updated with new information over the next couple weeks. We appreciate your patience and will let you know when it is finished.
+Please visit http://team3128.org/camp/ for more information.
