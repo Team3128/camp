@@ -5,7 +5,7 @@ title: Registration Policies
 The following are our policies regarding the registration process:
 
 #### Payment Deadline
-Payments for Summer Camp 2016 are due by June 30st, 2016 for non-full weeks.
+Payments for Summer Camp 2016 are due by June 30st, 2016 for non-full weeks. Weeks that are full may be subject to an earlier payment deadline in order to ensure that maximum number of camper slots are available.
 
 #### Pay by Check
 Checks should be made payable to 'Canyon Crest Academy Foundation'.
