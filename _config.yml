@@ -11,5 +11,10 @@ markdown: kramdown
 # Camp settings
 priority_register_open_date_string: "March 7th"
 general_register_open_date_string: "March 21st"
+
 interest_form_url: "http://goo.gl/forms/CIlsKn9NTE"
+
 volunteer_registration_form_url: "http://goo.gl/forms/qslncnCRCb"
+elementary_form_url: "http://www.sandiegonc.e2youngengineers.com/enrolment/"
+lower_form_url: "https://fs30.formsite.com/ccaf/RoboticsSummerCamp56/index.html"
+upper_form_url: "https://fs30.formsite.com/ccaf/RoboticsSummerCamp78/index.html"

@@ -27,9 +27,6 @@ The weeks currently offered are:
 - {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
 
 ## Registration
-Registration is currently not open. Here are some important dates you should know:
+Registration is now open. Please use our [registration form]({{ site.upper_form_url }}) to get started.
 
-- **Priority Registration** for returning campers will begin on {{ site.priority_register_open_date_string }}.
-- **General Registration** will open on {{ site.general_register_open_date_string }}.
-
-You can sign up on our [interest form]({{ site.interest_form_url }}) to get notified when registration is open. Also check out our registration policies for information on payments, cancellations, etc.
+Also check out our [registration policies](/camp/about/registration) for information on payments, cancellations, etc.
