@@ -28,7 +28,7 @@ learnings, we will also head outside for some awesome games and fun.
 ## Week Information
 The weeks currently offered are:
 
-{% for week in site.data.weeks %}
+{% for week in site.data.weeks-elementary %}
 - {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
 
 
