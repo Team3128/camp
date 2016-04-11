@@ -9,7 +9,7 @@ During each week of camp, we keep a consistent schedule that maximizes the
 amount of learning and fun campers can have building robots, while building
 in time to run around, eat, and just hang out.
 
-Each of our days has special events built into it, but its all structure around the same basic schedule:
+We meet five days a week, and each day we have special events built in, but its all structure around the same basic schedule:
 
 #### Typical Daily Schedule
 
