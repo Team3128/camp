@@ -29,8 +29,9 @@ learnings, we will also head outside for some awesome games and fun.
 The weeks currently offered are:
 
 {% for week in site.data.weeks-elementary %}
-- {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
+- {{ week.name }}: {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
 
+Registering for two weeks will give you a discount!
 
 ## Registration
 Registration is now open. Please use our [registration form]({{ site.elementary_form_url }}) to get started.
