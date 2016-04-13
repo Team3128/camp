@@ -31,7 +31,9 @@ The weeks currently offered are:
 {% for week in site.data.weeks-elementary %}
 - {{ week.name }}: {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
 
-Registering for two weeks will give you a discount!
+Note: Camps 1 and 2 have different materials.  Get a 10% discount on LC Camp 2, ($355) if already signed up for LC Camp 1. Late pick-up is available for minimal additional fee. Please inquire if interested.
+
+
 
 ## Registration
 Registration is now open. Please use our [registration form]({{ site.elementary_form_url }}) to get started.
