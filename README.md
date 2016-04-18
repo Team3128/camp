@@ -1,4 +1,12 @@
 # Robotics Summer Camp
+
+Marketing
+
+- [Flyer Distribution](Marketing/school-flyers.md)
+- [School Contact List](Marketing/school-contact-information.csv)
+
+## Introduction
+
 In 2014, FRC Team 3128 started a summer camp aimed at engaging and educating 
 students about robotics in an exciting and fun environment.
 
