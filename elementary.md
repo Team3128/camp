@@ -31,7 +31,7 @@ The weeks currently offered are:
 {% for week in site.data.weeks-elementary %}
 - {{ week.name }}: {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
 
-Note: Camps 1 and 2 have different materials.  Get a 10% discount on LC Camp 2, ($355) if already signed up for LC Camp 1. Late pick-up is available for minimal additional fee. Please inquire if interested.
+Note: Camps 1 and 2 have different materials. Camp 1 materials were used in Summer Camp 2015.  Get a 10% discount on LC Camp 2, ($355) if already signed up for LC Camp 1. Late pick-up is available for minimal additional fee. Please inquire if interested.
 
 
 
