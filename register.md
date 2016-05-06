@@ -7,6 +7,10 @@ We are currently offering camps on the weeks of:
 {% for week in site.data.weeks %}
 - {{ week.start_date }} - {{ week.end_date }}{% endfor %}
 
+**[1st - 4th Grade Camp](/camp/elementary/)**  
+e2 Young Engineers is providing engineering camps for our 1st – 4th graders. Campers can come and learn topics in Physics and basic engineering principles and use motorized Lego® models to reinforce STEM-related topics.
+There will be individual and team-base challenges that will practice their critical thinking and troubleshooting skills.  Some Lego models will be used for some games/friendly competitions.  Campers will have a chance to use their creativity as well.
+
 **[5th &amp; 6th Grade Camp](/camp/lower/)**  
 Our lower camp is aimed at students just starting to peek their heads into robotics. We'll show them basic mechanical design and programming using easy to learn programs and robotics kits that are as simple to use as LEGOs. Find out [more](/camp/lower/).
 
