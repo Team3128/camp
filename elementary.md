@@ -13,7 +13,7 @@ header_image: /assets/wide/elementary1.jpg
 
 **Times:** 9:00am – 3:00pm (Drop-off starts at 8:30am, Pick-up ends at 3:30pm)  
 **Location:** Canyon Crest Academy  
-**Rates:** $395 (See Below)  
+**Rates:** $395 ([Sign Up Now]({{ site.elementary_form_url }}))  
 **Includes:** Daily snacks and lunches, and a week of awesome fun.  
 
 This summer, we’re proud to partner with e2 Young Engineers to provide
