@@ -1,6 +1,6 @@
-name,start_date,end_date,display_name,price
-Lego Challenge Camp 2,July 5th,July 8th,Week One,$340
-Lego Challenge Camp 1,July 11th,July 15th,Week Two,$395
+name,start_date,end_date,display_name,price,notes
+Lego Challenge Camp 2,July 5th,July 8th,Week One,$340,*** (no wait list)
+Lego Challenge Camp 1,July 11th,July 15th,Week Two,$395,***
 Lego Challenge Camp 2,July 18th,July 22nd,Week Three,$395
 Lego Challenge Camp 1,July 25th,July 29th,Week Four,$395
-Lego Challenge Camp 2,August 1st,August 5th,Week Five,$395
+Lego Challenge Camp 2,August 1st,August 5th,Week Five,$395,***
