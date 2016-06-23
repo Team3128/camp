@@ -27,4 +27,5 @@ Foundation, and either mailed or dropped off on the first day of camp. See our
 
 #### How do I sign up?
 
-In order to sign up, please send an email to [after@team3128.org](mailto:aftercare@team3128.org).
+In order to sign up, please bring the payment (above) to your first day of robotics camp. You'll
+be able to sign up during the initial check in.
