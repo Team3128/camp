@@ -41,4 +41,14 @@ Other responders should:
 
 ## Outdoor Injury
 
-- Concious student obtain injury in middle of field.
+- Concious student obtains injury (twisted ankle) in middle of field.
+
+## Indoor Injury
+
+### Situation Run-through
+
+- Concious student obtains injury (cut on arm) in classroom.
+
+### Expected Checkpoints
+
+- [ ] Responder should wear gloves before giving medical aid.
