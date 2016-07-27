@@ -21,6 +21,9 @@ Put out signs:
 - [ ] 7th & 8th Sign (Next to elevator)
 - [ ] Welcome Sign (Outside of front gates)
 
+- [ ] Fill/place Water container on workshop window.
+- [ ] Fill/place Water container on far side of field.
+
 ### Closing
 
 Lock Doors & Turn Off lights for:
