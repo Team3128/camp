@@ -2,7 +2,10 @@
 
 ## General
 
-- [Food Plan](food-plan.csv)
-- [Inservice Training](inservice-training.md)
-- [Games](games.csv)
-- [Meal Setup](meal-setup.md)
+- [Inservice Training Checklist](inservice-training.md)
+- [Meal Setup Checklist](meal-setup.md)
+
+## Week Schedules
+
+- [Food Plan by Day](food-plan.csv)
+- [Games by Day](games.csv)
