@@ -17,7 +17,7 @@ The responsibilities of our Support Staff include, but are not limited to:
 
 #### Requirements
 
-All applicants for this position must, as of June 1st, 2016:
+All applicants for this position must, as of June 1st, 2017:
 
 - Have (or acquire) a valid first aid and CPR certification. (Focus in pediatric preferred)
 
