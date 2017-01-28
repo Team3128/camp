@@ -48,4 +48,4 @@ Lunch and snacks are provided by the camp and are available for Support Staff co
 
 After campers leave for the day at 3:00pm, Support Staff will go to each room and make sure it is tidy and ready for the following day.
 
-*If you are interested in this position, please email a resume with references to [{{ site.email }}]({{ site.email }}) before March 31st.*
+*If you are interested in this position, please email a resume with references to [{{ site.email }}]({{ site.email }}).*
