@@ -8,7 +8,7 @@ header_image: /assets/wide/IMG_2146.jpg
 
 ### Overview
 **Ages:** 10 – 12 years old  
-**Dates:** July 5th – August 5th  
+**Dates:** {{ site.date_range }}
 
 **Times:** 9:00am – 3:00pm (Drop-off starts at 8:30am, Pick-up ends at 3:30pm)  
 **Location:** Canyon Crest Academy  
