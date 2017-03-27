@@ -25,8 +25,6 @@ The weeks currently offered are:
 {% for week in site.data.weeks %}
 - {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
 
-**Note:** The registration period has not yet begun. Dates and prices are subject to change.
-
 ### Registration
 Registration is now open. Please use our [registration form]({{ site.lower_form_url }}) to get started.
 
