@@ -13,7 +13,7 @@ header_image: /assets/wide/elementary1.jpg
 
 **Times:** 9:00am – 3:00pm (Drop-off starts at 8:30am, Pick-up ends at 3:30pm)  
 **Location:** Canyon Crest Academy  
-**Rates:** $395 ([Interested?]({{ site.interest_form_url }}))  
+**Rates:** $410 ([Interested?]({{ site.interest_form_url }}))  
 **Includes:** Daily snacks and lunches, other morning treats and a week of awesome fun!
 
 This summer, we’re continuing our partnership with e2 Young Engineers to provide engineering camps for our 1st – 4th graders. Campers can come and learn topics in Physics and basic engineering principles and use motorized Lego® models to reinforce STEM-related topics.  
