@@ -28,6 +28,6 @@ The weeks currently offered are:
 **Note:** The registration period has not yet begun. Dates and prices are subject to change.
 
 ### Registration
-The registration period has not yet begun. However, if you are interested in enrolling campers this summer, [let us know]({{ site.interest_form_url }}).
+Registration is now open. Please use our [registration form]({{ site.lower_form_url }}) to get started.
 
 Also check out our [registration policies](/camp/about/registration) for information on payments, cancellations, etc.
