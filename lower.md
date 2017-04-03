@@ -23,7 +23,9 @@ Not only will we get students going on build robots, they’ll also get to compe
 The weeks currently offered are:
 
 {% for week in site.data.weeks %}
-- {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){% endfor %}
+- {{ week.start_date }} - {{ week.end_date }} {{ week.display_name }} ({{ week.price }}){% endfor %}
+
+Two games/challenge sets will be available on alternating weeks. These games will be announced at the beginning of June.
 
 ### Registration
 Registration is now open. Please use our [registration form]({{ site.lower_form_url }}) to get started.
