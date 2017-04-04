@@ -13,7 +13,7 @@ header_image: /assets/wide/elementary1.jpg
 
 **Times:** 9:00am – 3:00pm (Drop-off starts at 8:30am, Pick-up ends at 3:30pm)  
 **Location:** Canyon Crest Academy  
-**Rates:** $410 ([Register Now](http://www.sandiegonc.e2youngengineers.com/enrolment/)  
+**Rates:** $410 ([Register Now](http://www.sandiegonc.e2youngengineers.com/enrolment/))
 **Includes:** Daily snacks and lunches, other morning treats and a week of awesome fun!
 
 This summer, we’re continuing our partnership with e2 Young Engineers to provide engineering camps for our 1st – 4th graders. Campers can come and learn topics in Physics and basic engineering principles and use motorized Lego® models to reinforce STEM-related topics.  
@@ -30,4 +30,4 @@ The weeks currently offered are:
 **Note:** Camps 1 and 2 have different materials. Both camp materials will be slightly different than previous summer camps with new models.  We’re keeping some of the popular ones.  We may do the same final projects but making sure the repeat students will do different section.  Discounts for multiple BC camps, siblings, and early bird registration will be available again this year.  Late pick-up is available for minimal additional fee. Please inquire if interested.
 
 ### Registration
-To register, click [here](http://www.sandiegonc.e2youngengineers.com/enrolment/). You can also shoot us an email at [john@e2youngengineers.com](mailto:john@e2youngengineers.com) or call (858) 663-2446
+Register [here](http://www.sandiegonc.e2youngengineers.com/enrolment/). You can also shoot us an email at [john@e2youngengineers.com](mailto:john@e2youngengineers.com) or call (858) 663-2446.
