@@ -5,7 +5,13 @@ title: Registration Policies
 The following are our policies regarding the registration process:
 
 #### Payment Deadline
-The registration period has not yet begun. However, if you are interested in enrolling campers this summer, [let us know]({{ site.interest_form_url }}).
+The payment deadline is to be announced.
+
+#### Pay Online
+The online registration forms are linked to on the individual program information pages:
++ [1-8 info](/elementary/)
++ [5/6 info](/lower/)
++ [7/8 info](/upper/)
 
 #### Pay by Check
 Checks should be made payable to 'Canyon Crest Academy Foundation'.
