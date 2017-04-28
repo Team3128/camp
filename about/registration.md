@@ -9,9 +9,9 @@ The payment deadline is to be announced.
 
 #### Pay Online
 The online registration forms are linked to on the individual program information pages:
-+ [1-8 info](/elementary/)
-+ [5/6 info](/lower/)
-+ [7/8 info](/upper/)
++ [1-8 info](/camp/elementary/)
++ [5/6 info](/camp/lower/)
++ [7/8 info](/camp/upper/)
 
 #### Pay by Check
 Checks should be made payable to 'Canyon Crest Academy Foundation'.
