@@ -9,7 +9,7 @@ header_image: /assets/wide/IMG_0741.jpg
 
 ### Overview
 **Ages:** 12 – 14 years old  
-**Dates:** {{ site.date_range }} 
+**Dates:** {{ site.date_range }}
 
 **Times:** 9:00am – 3:00pm (Drop-off starts at 8:30am, Pick-up ends at 3:30pm)  
 **Location:** Canyon Crest Academy  
@@ -32,3 +32,6 @@ Two games/challenge sets will be available on alternating weeks. These games wil
 Registration is now open. Please use our [registration form]({{ site.upper_form_url }}) to get started.
 
 Also check out our [registration policies](/camp/about/registration) for information on payments, cancellations, etc.
+
+### Aftercare
+Camper pickup is at 3:00p, but sometimes, your campers need to stay a bit later. We get it; that's why we have aftercare. Your campers can stay with us until 5:00 PM. [Learn more.](/camp/aftercare/)

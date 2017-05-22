@@ -21,6 +21,7 @@ We typically meet five days a week, and each day we have special events built in
 - 12:45p - Recreation Time (Multiple Location)
 - 1:15p - Build Session in Competition Rooms
 - 3:00p - Pick Up at Administration Building
+- 5:00p - Aftercare Pickup
 
 #### Special Events
 

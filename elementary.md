@@ -19,7 +19,7 @@ header_image: /assets/wide/elementary1.jpg
 This summer, we’re continuing our partnership with e2 Young Engineers to provide engineering camps for our 1st – 4th graders. Campers can come and learn topics in Physics and basic engineering principles and use motorized Lego® models to reinforce STEM-related topics.  
 
 All week, campers will be engaged in learning about science, technology, engineering, and mathematics using their own LEGO® kits. We will perform group projects in order to exercise some team-based learnings.  In between the learnings, we will also head outside for some awesome games and physical activities.  Added bonus: Robotics Team Day with hands-on driving the robots and/or Robotics Lab Tour   
-  
+
 ### Week Information
 The weeks currently offered are:
 
@@ -31,3 +31,6 @@ The weeks currently offered are:
 
 ### Registration
 Register [here](http://www.sandiegonc.e2youngengineers.com/enrolment/). You can also shoot us an email at [john@e2youngengineers.com](mailto:john@e2youngengineers.com) or call (858) 663-2446.
+
+### Aftercare
+Camper pickup is at 3:00p, but sometimes, your campers need to stay a bit later. We get it; that's why we have aftercare. Your campers can stay with us until 5:00 PM. [Learn more.](/camp/aftercare/)
