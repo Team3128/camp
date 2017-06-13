@@ -24,7 +24,7 @@ All week, campers will be engaged in learning about science, technology, enginee
 The weeks currently offered are:
 
 {% for week in site.data.weeks-elementary %}
-- {{ week.name }}: {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}){{ week.notes }}{% endfor %}
+- {{ week.name }}: {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}) {{ week.notes }}{% endfor %}
 - Bricks Challenge Camp: Please inquire for other weeks
 
 **Note:** Camps 1 and 2 have different materials. Both camp materials will be slightly different than previous summer camps with new models.  We’re keeping some of the popular ones.  We may do the same final projects but making sure the repeat students will do different section.  Discounts for multiple BC camps, siblings, and early bird registration will be available again this year.  Late pick-up is available for minimal additional fee. Please inquire if interested.
