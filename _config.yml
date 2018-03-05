@@ -11,6 +11,7 @@ markdown: kramdown
 # Camp settings
 priority_register_open_date_string: "March 7th"
 general_register_open_date_string: "March 21st"
+registration_open: false
 
 date_range: "July 9th – August 3rd"
 
