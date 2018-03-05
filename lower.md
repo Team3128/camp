@@ -15,7 +15,7 @@ header_image: /assets/wide/IMG_2146.jpg
 {% if site.registration_open %}
 **Rates:** $450 – [Register Now!]({{ site.lower_form_url }})  
 {% else %}
-**Rates:** $450 – [Interested?]({{ site.interest_form_url }})  
+**Rates:** $450 – [Interested? Get notified when we open.]({{ site.interest_form_url }})  
 {% endif %}
 **Includes:** Daily snacks and lunches, camp t-shirt, and a week of awesome fun.  
 
@@ -35,7 +35,7 @@ Two games/challenge sets will be available on alternating weeks. These games wil
 {% if site.registration_open %}
 Registration is now open. Please use our [registration form]({{ site.lower_form_url }}) to get started.
 {% else %}
-The registration period has not yet begun. However, if you are interested in enrolling campers this summer, [let us know]({{ site.interest_form_url }}).
+The registration period has not yet begun. However, if you are interested in enrolling campers this summer, [let us know]({{ site.interest_form_url }}) and we will alert you as soon as registration is open!
 {% endif %}
 
 Also check out our [registration policies](/camp/about/registration) for information on payments, cancellations, etc.
