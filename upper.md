@@ -13,7 +13,11 @@ header_image: /assets/wide/IMG_0741.jpg
 
 **Times:** 9:00am – 3:00pm (Drop-off starts at 8:30am, Pick-up ends at 3:30pm)  
 **Location:** Canyon Crest Academy  
+{% if site.registration_open %}
 **Rates:** $450 – [Register Now!]({{ site.upper_form_url }})  
+{% else %}
+**Rates:** $450 – [Interested? Get notified when we open.]({{ site.interest_form_url }})  
+{% endif %}
 **Includes:** Daily snacks and lunches, camp t-shirt, and a week of awesome fun.  
 
 This summer, we’re proud to offer a week of fun where campers can come and build awesome robots, run around, and have fun. All week we’ll be using VEX EDR robot sets to build robot that complete complex challenges that teach campers mechanical and programming skills, while getting them excited about engineering and technology.
@@ -29,7 +33,11 @@ The weeks currently offered are:
 Two games/challenge sets will be available on alternating weeks. These games will be announced at the beginning of June.
 
 ### Registration
+{% if site.registration_open %}
 Registration is now open. Please use our [registration form]({{ site.upper_form_url }}) to get started.
+{% else %}
+The registration period has not yet begun. However, if you are interested in enrolling campers this summer, [let us know]({{ site.interest_form_url }}) and we will alert you as soon as registration is open!
+{% endif %}
 
 Also check out our [registration policies](/camp/about/registration) for information on payments, cancellations, etc.
 
