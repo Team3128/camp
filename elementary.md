@@ -13,19 +13,18 @@ header_image: /assets/wide/elementary1.jpg
 
 **Times:** 9:00am – 3:00pm (Drop-off starts at 8:30am, Pick-up ends at 3:30pm)  
 **Location:** Canyon Crest Academy  
-**Rates:** $410 ([Register Now](http://www.sandiegonc.e2youngengineers.com/enrolment/))  
+**Rates:** $400
 **Includes:** Daily snacks and lunches, other morning treats and a week of awesome fun!
 
-This summer, we’re continuing our partnership with e2 Young Engineers to provide engineering camps for our 1st – 4th graders. Campers can come and learn topics in Physics and basic engineering principles and use motorized Lego® models to reinforce STEM-related topics.  
+This summer, we have an awesome new camp for our elementary students! Get started by building simple machines that come together to create an awesome robot that you can control through a joystick.   
 
-All week, campers will be engaged in learning about science, technology, engineering, and mathematics using their own LEGO® kits. We will perform group projects in order to exercise some team-based learnings.  In between the learnings, we will also head outside for some awesome games and physical activities.  Added bonus: Robotics Team Day with hands-on driving the robots and/or Robotics Lab Tour   
+All week, campers will be engaged in learning about science, technology, engineering, and mathematics using VEX IQ robot kits. During the week, we will build simple machines powered by motors. Then, students will bring those separate parts together to create a bigger robot that they can control via a joystick. We'll be building different robots on different days, so come and join us!
 
 ### Week Information
 The weeks currently offered are:
 
 {% for week in site.data.weeks-elementary %}
 - {{ week.name }}: {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}) {{ week.notes }}{% endfor %}
-- Bricks Challenge Camp: Please inquire for other weeks
 
 **Note:** Camps 1 and 2 have different materials. Both camp materials will be slightly different than previous summer camps with new models.  We’re keeping some of the popular ones.  We may do the same final projects but making sure the repeat students will do different section.  Discounts for multiple BC camps, siblings, and early bird registration will be available again this year.  Late pick-up is available for minimal additional fee. Please inquire if interested.
 
