@@ -18,7 +18,7 @@ header_image: /assets/wide/IMG_0741.jpg
 {% else %}**Rates:** $450 – [Interested? Get notified when we open.]({{ site.interest_form_url }})  {% endif %}
 **Includes:** Daily snacks and lunches, camp t-shirt, and a week of awesome fun.  
 
-This summer, we’re proud to offer a week of fun where campers can come and build awesome robots, run around, and have fun. All week we’ll be using VEX EDR robot sets to build robot that complete complex challenges that teach campers mechanical and programming skills, while getting them excited about engineering and technology.
+This summer, we’re proud to offer a week of fun where campers can come and build awesome robots, run around, and have fun. All week we’ll be using Tetrix robot sets to build robot that complete complex challenges that teach campers mechanical and programming skills, while getting them excited about engineering and technology.
 
 Not only will we get students going on build robots, they’ll also get to compete against each other by trying to score the most points in our end of the week competition. And every step of the way we’ll have counselors and staff alongside them to make sure they get the guidance they need to reach their goal.
 
