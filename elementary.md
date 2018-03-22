@@ -13,7 +13,7 @@ header_image: /assets/wide/elementary1.jpg
 
 **Times:** 9:00am – 3:00pm (Drop-off starts at 8:30am, Pick-up ends at 3:30pm)  
 **Location:** Canyon Crest Academy  
-**Rates:** $400
+**Rates:** $410  
 **Includes:** Daily snacks and lunches, other morning treats and a week of awesome fun!
 
 This summer, we have an awesome new camp for our elementary students! Get started by building simple machines that come together to create an awesome robot that you can control through a joystick.   
