@@ -15,7 +15,7 @@ and references.
 
 ## Volunteer Openings
 
-### 5/6th or 7/8th Grade Counselor
+### Counselor
 Our Volunteer Counselors are essential for guiding students through the engaging
 world of the technology and robotics. Volunteers help students during their week
 and engage them through the daily robot challenges and various games. Free
