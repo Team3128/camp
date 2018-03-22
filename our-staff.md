@@ -23,15 +23,3 @@ founding member of  Canyon Crest Academy’s FIRST Robotics Competition team, th
 Aluminum Narwhals. He has spent the last two years mentoring the Aluminum Narwhals
 and one of the school’s FIRST Tech Challenge teams, De.Evolution. He helps students
 learn robotic design, physics, computer aided design, and programming.
-
-## Partners
-
-### John Rodriguez
-Owner of E2 Young Engineers in San Diego.  He has a BS in Electrical Engineer
-with minor in Computer Science from UCSD.  He has more than 18 years of hardware
-design and project management experience from various companies including Denso,
-Nokia and Microsoft.  He has an MBA degree from Cornell University and Queens
-University.  His goal is to teach and have the children experience STEM-based
-learnings in early age so that  children will be more equipped and experienced
-before going to Middle and High School.  He mentors/coaches Jr. FLL and FLL kids
-during his spare time.
