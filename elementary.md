@@ -27,7 +27,9 @@ The weeks currently offered are:
 - {{ week.name }}: {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}) {{ week.notes }}{% endfor %}
 
 ### Registration
-Register [here](http://www.sandiegonc.e2youngengineers.com/enrolment/). You can also shoot us an email at [john@e2youngengineers.com](mailto:john@e2youngengineers.com) or call (858) 663-2446.
+{% if site.registration_open %} Registration is now open. Please use our [registration form]({{ site.elementary_form_url }}) to get started. {% else %} The registration period has not yet begun. However, if you are interested in enrolling campers this summer, [let us know]({{ site.interest_form_url }}) and we will alert you as soon as registration is open! {% endif %}
+
+Also check out our registration policies for information on payments, cancellations, etc.
 
 ### Aftercare
 Camper pickup is at 3:00p, but sometimes your campers need to stay a bit later. We get it; that's why we have aftercare. Your campers can stay with us until 5:00 PM. [Learn more.](/camp/aftercare/)
