@@ -8,10 +8,10 @@ We are currently offering camps on the weeks of:
 - {{ week.start_date }} - {{ week.end_date }}{% endfor %}
 
 **[1st - 4th Grade Camp](/camp/elementary/)**  
-This summer, we have an awesome new camp for our elementary students! Get started by building simple machines that come together to create an awesome robot that you can control through a joystick at the end of the week.
+This summer, we have an awesome new camp for our elementary students! Get engaged in the basics of engineering by building simple machines that come together to create an awesome robot that you can control through a joystick at the end of the week.
 
 **[5th &amp; 6th Grade Camp](/camp/lower/)**  
-Our lower camp is aimed at students just starting to peek their heads into robotics. We'll show them basic mechanical design and programming using easy to learn programs and robotics kits that are as simple to use as LEGOs. Find out [more](/camp/lower/).
+Has your student never built a robot? Or maybe they've had some experience? This is the place for them. We'll show them basic mechanical design and programming using easy to learn programs and robotics kits that are as simple to use as LEGOs. Find out [more](/camp/lower/).
 
 **[7th &amp; 8th Grade Camp](/camp/upper/)**  
-Our upper camp is aimed at students who want to start learning text-based programming and working in larger groups to create more complex, but awesome robots. Still good for beginners, we use more advanced robotics kits that enable campers to go beyond a basic robot.  Find out [more](/camp/upper/).
+Our upper camp is aimed at students who want to start learning text-based programming and working in larger groups to create more complex, but incredibly powerful robots. Still accessible for beginners, we use more advanced kits that enable campers to go beyond a basic robot.  Find out [more](/camp/upper/).
