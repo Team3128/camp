@@ -8,7 +8,7 @@ We are currently offering camps on the weeks of:
 - {{ week.start_date }} - {{ week.end_date }}{% endfor %}
 
 **[1st - 4th Grade Camp](/camp/elementary/)**  
-This summer, we have an awesome new camp for our elementary students! Get engaged in the basics of engineering by building simple machines that come together to create an awesome robot that you can control through a joystick at the end of the week.
+This summer, we have an awesome new camp for our elementary students! Get engaged in the basics of engineering by building simple machines that come together to create an awesome robot that you can control through a joystick at the end of the week. Find out [more](/camp/elementary/).
 
 **[5th &amp; 6th Grade Camp](/camp/lower/)**  
 Has your student never built a robot? Or maybe they've had some experience? This is the place for them. We'll show them basic mechanical design and programming using easy to learn programs and robotics kits that are as simple to use as LEGOs. Find out [more](/camp/lower/).
