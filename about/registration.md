@@ -5,7 +5,7 @@ title: Registration Policies
 The following are our policies regarding the registration process:
 
 #### Payment Deadline
-The payment deadline is to be announced.
+All payments are due by June 15th.
 
 #### Pay Online
 The online registration forms are linked to on the individual program information pages:
@@ -21,8 +21,7 @@ office at
 San Diego, CA 92130.**
 
 #### Refunds
-Full refunds are available until one week before the camp start date of the
-session the camper is registered for.
+Full refunds are available until June 15th due to the time required to replace spots.
 
 #### Wait list
 When a camp week has become full, campers may join a wait list. If a slot
