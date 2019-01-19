@@ -9,9 +9,9 @@ All payments are due by June 15th.
 
 #### Pay Online
 The online registration forms are linked to on the individual program information pages:
-+ [1-8 info](/camp/elementary/)
-+ [5/6 info](/camp/lower/)
-+ [7/8 info](/camp/upper/)
++ [Grades 1-4 Info](/camp/elementary/)
++ [Grades 5/6 Info](/camp/lower/)
++ [Grades 7/8 Info](/camp/upper/)
 
 #### Pay by Check
 Checks should be made payable to 'Canyon Crest Academy Foundation'.
