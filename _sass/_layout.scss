@@ -33,11 +33,13 @@
     .menu-icon {
         
         display: none;
+        vertical-align: middle;
     }
 
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        vertical-align: middle;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -53,6 +55,7 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+        vertical-align: middle;
 
         .menu-icon {
             display: block;
