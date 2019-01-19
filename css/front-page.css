@@ -12,7 +12,7 @@
 
 .front-grid h4 {
   font-weight: bold;
-  color: #1b1464;
+  color: #072682;
 }
 
 .front-grid .choose-program {
@@ -33,7 +33,7 @@
 }
 
 .front-grid .choose-program .button:hover {
-  background-color: #1b1464;
+  background-color: #072682;
   color: #fff;
 }
 
