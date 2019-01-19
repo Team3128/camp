@@ -23,7 +23,7 @@ San Diego, CA 92130.**
 #### Refunds
 Full refunds are available until June 15th due to the time required to replace spots.
 
-#### Wait list
+#### Wait List
 When a camp week has become full, campers may join a wait list. If a slot
 becomes available, campers on the wait list will be contacted in the order they
 registered and given a reasonable amount of time to respond and claim their spot.
