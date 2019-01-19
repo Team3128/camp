@@ -209,7 +209,7 @@
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-lapto00p) {
+    @include media-query($on-laptop) {
         font-size: 36px;
     }
 }
