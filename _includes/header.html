@@ -1,8 +1,12 @@
 <div class="top-bar" id="main-menu">
-   <div class="top-bar-left">
-      <div class="top-bar-left">  
-        <a href="{{ "/" | prepend: site.baseurl }}"><img width="10%" src="/camp/assets/graphics/logo.png"></img> Robotics Summer Camps at Canyon Crest Academy</a>
-      </div> 
+  <div class="top-bar-left">    
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li>
+         <a href="{{ "/" | prepend: site.baseurl }}"><img width="5%" src="/camp/assets/graphics/logo.png"></img> Robotics Summer Camps at Canyon Crest Academy</a>
+        </li>
+      </ul>
+   </div>
+
    <div class="top-bar-right">
     <ul class="menu" data-responsive-menu="drilldown medium-dropdown">
       <li><a href="{{ "/about" | prepend: site.baseurl }}">About Us</a></li>
