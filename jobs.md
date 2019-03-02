@@ -19,7 +19,7 @@ and references.
 Our Volunteer Counselors are essential for guiding students through the engaging
 world of the technology and robotics. Volunteers help students during their week
 and engage them through the daily robot challenges and various games. Free
-lunch included. [Learn More](volunteer)
+lunch is included. [Learn More](volunteer)
 
 ## Paid Openings
 

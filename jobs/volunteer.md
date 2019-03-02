@@ -19,5 +19,5 @@ All applicants for this position must, as of June 1st, 2015:
 
 #### Work Life
 Volunteer Counselors arrive at 8am for their morning Counselor Meeting where they will be briefed on the activities for the day. At 8:30a, Volunteer Counselors will meet with campers and engage campers in pre-camp activites.   During the day, Volunteer Counselors will watch over their assigned groups and guide campers through building activities. Volunteer Counselors will help move campers between different activities and alert the Camp Staff to any problems that arise.   At the end of the day, Volunteer Counselors will help engage kids in post-camp games and then attend the Counselor Wrap-Up Meeting. Volunteer Counselors will leave at 4pm.
-
-*In order to sign up, please register on our [volunteer form]( {{ site.volunteer_registration_form_url }} ).*
+<!-- 
+*In order to sign up, please register on our [volunteer form]( {{ site.volunteer_registration_form_url }} ).* -->

@@ -23,9 +23,10 @@ What would camp be without some fun outside? Each day we’ll spend some time ou
 
 ![7/8th Campers](/camp/assets/rec_campers1.jpg)
 
+<!-- 
 ### Lunch/Snacks
 
-Lunch and snacks are provided daily, however campers can bring their own food if they would like. Please see our Food Plan for specific details of the weekly food.
+Lunch and snacks are provided daily, however campers can bring their own food if they would like. Please see our Food Plan for specific details of the weekly food. -->
 
 ### Aftercare
 Camper pickup is at 3:00p, but sometimes, your campers need to stay a bit later. We get it; that's why we have aftercare. Your campers can stay with us until 5:00 PM. [Learn more.](/camp/aftercare/)

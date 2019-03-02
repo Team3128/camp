@@ -11,12 +11,14 @@ header_image: /assets/wide/elementary1.jpg
 **Ages:** 6 – 10 years old  
 **Dates:** {{ site.date_range }}
 
+{{site.is_registration_open}}
+
 **Times:** 9:00am – 3:00pm (Drop-off starts at 8:30am, Pick-up ends at 3:30pm)  
 **Location:** Canyon Crest Academy  
-{% if site.registration_open %}
+{% if site.is_registration_open %}
 **Rates:** $410 – [Register Now!]({{ site.elementary_form_url }})  
 {% else %}**Rates:** $410 – [Interested? Get notified when we open.]({{ site.interest_form_url }})  {% endif %}
-**Includes:** Daily snacks and lunches, camp t-shirt, and a week of awesome fun.  
+**Includes:** Camp t-shirt and a week of awesome fun.  
 
 This summer, we have an awesome new camp for our elementary students! Get started by building simple machines that come together to create an awesome robot that you can control through a joystick.   
 
@@ -26,10 +28,10 @@ All week, campers will be engaged in learning about science, technology, enginee
 The weeks currently offered are:
 
 {% for week in site.data.weeks-elementary %}
-- {{ week.name }}: {{ week.start_date }} - {{ week.end_date }} ({{ week.price }}) {{ week.notes }}{% endfor %}
+- **{{ week.start_date }} - {{ week.end_date }}** ({{ week.price }}) {{ week.notes }}{% endfor %}
 
 ### Registration
-{% if site.registration_open %} Registration is now open. Please use our [registration form]({{ site.elementary_form_url }}) to get started. {% else %} The registration period has not yet begun. However, if you are interested in enrolling campers this summer, [let us know]({{ site.interest_form_url }}) and we will alert you as soon as registration is open! {% endif %}
+{% if site.is_registration_open %} Registration is now open. Please use our [registration form]({{ site.elementary_form_url }}) to get started. {% else %} The registration period has not yet begun. However, if you are interested in enrolling campers this summer, [let us know]({{ site.interest_form_url }}) and we will alert you as soon as registration is open! {% endif %}
 
 Also check out our registration policies for information on payments, cancellations, etc.
 

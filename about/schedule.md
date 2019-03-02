@@ -35,9 +35,8 @@ Some special events this summer include:
 
 ## Food Plan
 
-Our weekly plan features local food companies that provide kid friendly options.
-Kids are able to bring their lunch any or all days. Please let you camper's Room
-Leader know about any special dietary circumstances.
+Kids are able to bring their own lunches any day of camp. We will also have Our weekly plan features local food companies that provide kid friendly options.
+Please let you camper's Room Leader know about any special dietary circumstances.
 
 #### Snacks
 

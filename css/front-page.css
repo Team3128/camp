@@ -15,8 +15,37 @@
   color: #072682;
 }
 
+.front-grid .interested {
+  padding: 0.75em;
+  margin: 1.0em 1.0em;
+  text-align: left;
+
+  background: #dfdfdf;
+  font-size: 16pt;
+
+  line-height: 120%;
+}
+
+.front-grid .interested h3 {
+  font-size: 18pt;
+  text-align: center;
+  line-height: 90%;
+}
+
+.front-grid .interested .button {
+  width: 100%;
+  font-weight: bold;
+
+  margin: 0.75em 0em 0em 0em;
+}
+
+.front-grid .interested .button:hover {
+  background-color: #EEEEEF;
+  color: #072682;
+}
+
 .front-grid .choose-program {
-  margin-top: 2em;
+  margin-top: 0em;
   text-align: center;
 }
 
