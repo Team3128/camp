@@ -6,6 +6,7 @@ title: Dates & Registration
 We are currently offering camps on the weeks of:
 {% for week in site.data.weeks %}
 - {{ week.start_date }} - {{ week.end_date }}{% endfor %}
+
 Our early bird registration has been extended! If you sign up before May 15, use the code "2019EARLY" for a discount.
 
 **[1st - 4th Grade Camp](/camp/elementary/)**  
