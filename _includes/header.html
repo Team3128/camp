@@ -1,3 +1,16 @@
-<header>
+<header class="flexbox row">
+    <div class="logo">
+        <a href="{{ relative_url }}">
+            <img src="{{ '/assets/graphics/logo.svg' | relative_url }}" />
+        </a>
+    </div>
+        
 
+    <div class="flexbox row navigation">
+        {% for page in site.data.pages %}
+        <a href="{{ page.permalink | relative_url }}" class="nav_element">
+            <div>{{ page.title }}</div>
+        </a>
+        {% endfor %}
+    </div>
 </header>

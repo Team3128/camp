@@ -1,8 +1,0 @@
-# Site settings
-title: Robotics Summer Camps
-email: camp@team3128.org
-baseurl: "/camp" # the subpath of your site, e.g. /blog
-url: "http://team3128.github.io" # the base hostname & protocol for your site
-
-# Build settings
-markdown: kramdown

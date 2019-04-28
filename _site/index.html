@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+</script>
+
+<script>
+    $(document).ready(function(){
+        $( "a.scroll_link" ).click(function( event ) {
+            event.preventDefault();
+            $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+        });
+    });
+</script>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="/camp/assets/main.css">
+    <link rel="canonical" href="http://localhost:4000/camp/">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+</head>
+  
+    <body>
+        <header class="flexbox row">
+    <div class="logo">
+        <a href="">
+            <img src="/camp/assets/graphics/logo.svg" />
+        </a>
+    </div>
+        
+
+    <div class="flexbox row navigation">
+        
+        <a href="/camp/about/" class="nav_element">
+            <div>About Us</div>
+        </a>
+        
+        <a href="/camp/programs/" class="nav_element">
+            <div>Programs</div>
+        </a>
+        
+        <a href="/camp/register/" class="nav_element">
+            <div>Registration</div>
+        </a>
+        
+        <a href="/camp/contact/" class="nav_element">
+            <div>Contact</div>
+        </a>
+        
+    </div>
+</header>
+        <main class="page-content" aria-label="Content">
+            <div class="homepage">
+    <script>
+        $(document).ready(function() {
+            resize();
+
+            $(".benefit").children(".cover").css({'height': $(".benefit").height()});
+            $(".benefit").children(".cover").children(".elaboration").addClass('clipped');
+        });
+
+        $(window).resize(function() {
+            resize();
+        });
+
+        function resize() {
+            $(".top").height($(window).height() - $("header").height());
+        }
+    </script>
+
+    <div class="top">
+        <div class="overlay">
+            <div class="tagline">
+                <span class="big">Build Robots. All Week Long.</span>
+                <hr>
+                <div class="details">
+                    Robotics Summer Camp at Canyon Crest Academy is the ultimate week-long summer STEM experience for elementary and middle school students. 
+                </div>
+
+                <a href="#whycamp" class="scroll_link" style="color: white;">
+                    <div class="large button hover_animate">
+                        Learn More
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="why" id="whycamp">
+        <div class="wrapper">
+            <h1 class="short">What Camp Offers</h1>
+            <hr>
+            <div>
+                At Robotics Summer Camp at Canyon Crest Academy, students start on a journey that can continue for the rest of their lives—and it goes way further than just technical know-how. Campers develop skills in teamwork, collaboration, planning, and creative problem solving, as well as friendships and memories that last a lifetime.
+            </div>
+            
+            <div style="margin: 4px 0px 0px; text-align: center;">
+                <i>Hover over the pictures below to learn more about what makes our camp unique.</i>
+            </div>
+
+            <div class="benefits">
+                
+                    <a href="/camp/about/">
+                        <div class="benefit" style="background-image: url(/camp/assets/photos/homepage/excite.jpg)">
+                            <div class="cover hover_animate">
+                                <h2>Engaging Challenges and Exciting Competition.</h2>
+
+                                <div class="elaboration hover_animate">
+                                    Students build and program robots to complete interesting and complex challenges. Then, they design their own robots to compete against their fellow campers, enabling them to learn new perspectives and problem solving.
+                                    <div style="margin: 9px 0px 0px; text-align: center;">
+                                        <i>Click to learn more...</i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/camp/about/">
+                        <div class="benefit" style="background-image: url(/camp/assets/photos/homepage/robot.jpg)">
+                            <div class="cover hover_animate">
+                                <h2>Experiences with Real Robots.</h2>
+
+                                <div class="elaboration hover_animate">
+                                    Throughout the course of the week, students work directly with the same robotics systems used by middle and high schoolers around the world in global robotics competitions.
+                                    <div style="margin: 9px 0px 0px; text-align: center;">
+                                        <i>Click to learn more...</i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/camp/about/">
+                        <div class="benefit" style="background-image: url(/camp/assets/photos/homepage/help.jpg)">
+                            <div class="cover hover_animate">
+                                <h2>Help when they need it. Freedom when they don't.</h2>
+
+                                <div class="elaboration hover_animate">
+                                    Our four-to-one student to counselor ratio that ensures that whenever campers need help with a challenge, they can get immediate, personal access to advice, assistance, and expertise.
+                                    <div style="margin: 9px 0px 0px; text-align: center;">
+                                        <i>Click to learn more...</i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/camp/about/">
+                        <div class="benefit" style="background-image: url(/camp/assets/photos/homepage/more.jpg)">
+                            <div class="cover hover_animate">
+                                <h2>More Than Just Robots.</h2>
+
+                                <div class="elaboration hover_animate">
+                                    We're so much more than your average robotics camp. We have loads of recreational activities, such as Dodgeball and Ultimate Frisbee. Also, snacks and lunch are included.
+                                    <div style="margin: 9px 0px 0px; text-align: center;">
+                                        <i>Click to learn more...</i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                
+
+                <!-- <div style="background: #6b6b6b; grid-area: d12"></div>
+                <div style="background: #6b6b6b; grid-area: d34"></div>
+                <div style="background: #6b6b6b; grid-area: d13"></div>
+                <div style="background: #6b6b6b; grid-area: d24"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="camp_levels" style="background: #e4e4e4;">
+        <div class="wrapper">
+            <h1>Programs</h1>
+            <hr>
+            Each week, we offer each of <b>three levels</b> of camp to cater to all students in first grade through eighth grade.
+            <div class="levels">
+                
+                    <div class="level flexbox column" style="background: #1b1464">
+                        <div class="title">
+                            <h2>Elementary</h2>
+                        </div>
+                        
+                        <div class="grade_levels">for 1st-4th graders</div>
+
+                        <div class="description" style="flex: 1 0 auto;">Campers learn the fundamentals of physics and basic engineering principles through building with VEX IQ robotics kits.</div>
+
+                        <a href="/camp/programs/elementary"><div class="button medium hover_animate">Learn More</div></a>
+                    </div>
+                
+                    <div class="level flexbox column" style="background: #072682">
+                        <div class="title">
+                            <h2>Middle</h2>
+                        </div>
+                        
+                        <div class="grade_levels">for 5th & 6th graders</div>
+
+                        <div class="description" style="flex: 1 0 auto;">Using VEX IQ robotics kits, campers design, build, and program robots to complete complex challenges, as well as compete in an exciting mini robotics competition against their fellow campers.</div>
+
+                        <a href="/camp/programs/middle"><div class="button medium hover_animate">Learn More</div></a>
+                    </div>
+                
+                    <div class="level flexbox column" style="background: #0068a5">
+                        <div class="title">
+                            <h2>Upper</h2>
+                        </div>
+                        
+                        <div class="grade_levels">for 7th & 8th graders</div>
+
+                        <div class="description" style="flex: 1 0 auto;">Spend all week building using TETRIX robot sets while learning to program in a text-based programming language. It’s going to be awesome.</div>
+
+                        <a href="/camp/programs/upper"><div class="button medium hover_animate">Learn More</div></a>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="questions">
+        <div class="wrapper">
+            <h1 class="short">Join us!</h1>
+            <hr>
+
+            <div>
+                We're glad to see you here, and we'd be really excited to have your students join us this summer! If you have any questions about our camp (or just want to reach out and say hi), feel free to contact us! Also, don't forget to check out our Frequently Asked Questions for helpful answers to common inquiries.
+            </div>
+
+            <div style="text-align: center">
+                <a href="/camp/register/"><div class="navy button medium hover_animate">Register Now!</div></a>
+                <a href="/camp/contact/"><div class="navy button medium hover_animate">Contact Us</div></a>
+                <a href="/camp/about/"><div class="navy button medium hover_animate">Frequently Asked Questions</div></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </main>
+        <footer>
+    © 2015-2019. All rights reserved. Robotics Summer Camp at Canyon Crest Academy is a program by <a href="http://team3128.org">FIRST Robotics Competition Team 3128: Aluminum Narwhals</a> and the <a href="http://canyoncrestfoundation.org">Canyon Crest Academy Foundation</a>.
+</footer>
+    </body>
+</html>

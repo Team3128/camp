@@ -1,0 +1,14 @@
+- title: Elementary
+  color: 1b1464
+  grades: 1st-4th
+  description: Campers learn the fundamentals of physics and basic engineering principles through building with VEX IQ robotics kits.
+
+- title: Middle
+  color: 072682
+  grades: 5th & 6th
+  description: Using VEX IQ robotics kits, campers design, build, and program robots to complete complex challenges, as well as compete in an exciting mini robotics competition against their fellow campers.
+
+- title: Upper
+  color: 0068a5
+  grades: 7th & 8th
+  description: Spend all week building using TETRIX robot sets while learning to program in a text-based programming language. It’s going to be awesome.

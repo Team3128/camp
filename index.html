@@ -1,0 +1,119 @@
+---
+layout: default
+---
+
+<div class="homepage">
+    <script>
+        $(document).ready(function() {
+            resize();
+
+            $(".benefit").children(".cover").css({'height': $(".benefit").height()});
+            $(".benefit").children(".cover").children(".elaboration").addClass('clipped');
+        });
+
+        $(window).resize(function() {
+            resize();
+        });
+
+        function resize() {
+            $(".top").height($(window).height() - $("header").height());
+        }
+    </script>
+
+    <div class="top">
+        <div class="overlay">
+            <div class="tagline">
+                <span class="big">Build Robots. All Week Long.</span>
+                <hr>
+                <div class="details">
+                    Robotics Summer Camp at Canyon Crest Academy is the ultimate week-long summer STEM experience for elementary and middle school students. 
+                </div>
+
+                <a href="#whycamp" class="scroll_link" style="color: white;">
+                    <div class="large button hover_animate">
+                        Learn More
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="why" id="whycamp">
+        <div class="wrapper">
+            <h1 class="short">What Camp Offers</h1>
+            <hr>
+            <div>
+                At Robotics Summer Camp at Canyon Crest Academy, students start on a journey that can continue for the rest of their lives—and it goes way further than just technical know-how. Campers develop skills in teamwork, collaboration, planning, and creative problem solving, as well as friendships and memories that last a lifetime.
+            </div>
+            
+            <div style="margin: 4px 0px 0px; text-align: center;">
+                <i>Hover over the pictures below to learn more about what makes our camp unique.</i>
+            </div>
+
+            <div class="benefits">
+                {% for benefit in site.data.benefits %}
+                    <a href="{{ 'about/' | relative_url}}">
+                        <div class="benefit" style="background-image: url({{ 'assets/photos/homepage/' | append: benefit.bg | relative_url }})">
+                            <div class="cover hover_animate">
+                                <h2>{{ benefit.title }}</h2>
+
+                                <div class="elaboration hover_animate">
+                                    {{ benefit.description }}
+                                    <div style="margin: 9px 0px 0px; text-align: center;">
+                                        <i>Click to learn more...</i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                {% endfor %}
+
+                <!-- <div style="background: #6b6b6b; grid-area: d12"></div>
+                <div style="background: #6b6b6b; grid-area: d34"></div>
+                <div style="background: #6b6b6b; grid-area: d13"></div>
+                <div style="background: #6b6b6b; grid-area: d24"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="camp_levels" style="background: #e4e4e4;">
+        <div class="wrapper">
+            <h1>Programs</h1>
+            <hr>
+            Each week, we offer each of <b>three levels</b> of camp to cater to all students in first grade through eighth grade.
+            <div class="levels">
+                {% for level in site.data.levels %}
+                    <div class="level flexbox column" style="background: #{{ level.color }}">
+                        <div class="title">
+                            <h2>{{ level.title }}</h2>
+                        </div>
+                        
+                        <div class="grade_levels">for {{ level.grades }} graders</div>
+
+                        <div class="description" style="flex: 1 0 auto;">{{ level.description }}</div>
+
+                        <a href="{{ 'programs/' | append: level.title | downcase | relative_url }}"><div class="button medium hover_animate">Learn More</div></a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    
+    <div class="questions">
+        <div class="wrapper">
+            <h1 class="short">Join us!</h1>
+            <hr>
+
+            <div>
+                We're glad to see you here, and we'd be really excited to have your students join us this summer! If you have any questions about our camp (or just want to reach out and say hi), feel free to contact us! Also, don't forget to check out our Frequently Asked Questions for helpful answers to common inquiries.
+            </div>
+
+            <div style="text-align: center">
+                <a href="{{ 'register/' | relative_url }}"><div class="navy button medium hover_animate">Register Now!</div></a>
+                <a href="{{ 'contact/' | relative_url }}"><div class="navy button medium hover_animate">Contact Us</div></a>
+                <a href="{{ 'about/' | relative_url }}"><div class="navy button medium hover_animate">Frequently Asked Questions</div></a>
+            </div>
+        </div>
+    </div>
+</div>
