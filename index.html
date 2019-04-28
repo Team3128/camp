@@ -82,21 +82,8 @@ layout: default
             <h1>Programs</h1>
             <hr>
             Each week, we offer each of <b>three levels</b> of camp to cater to all students in first grade through eighth grade.
-            <div class="levels">
-                {% for level in site.data.levels %}
-                    <div class="level flexbox column" style="background: #{{ level.color }}">
-                        <div class="title">
-                            <h2>{{ level.title }}</h2>
-                        </div>
-                        
-                        <div class="grade_levels">for {{ level.grades }} graders</div>
-
-                        <div class="description" style="flex: 1 0 auto;">{{ level.description }}</div>
-
-                        <a href="{{ 'programs/' | append: level.title | downcase | relative_url }}"><div class="button medium hover_animate">Learn More</div></a>
-                    </div>
-                {% endfor %}
-            </div>
+            
+            {% include levels.html %}
         </div>
     </div>
     
@@ -110,8 +97,8 @@ layout: default
             </div>
 
             <div style="text-align: center">
-                <a href="{{ 'register/' | relative_url }}"><div class="navy button medium hover_animate">Register Now!</div></a>
-                <a href="{{ 'contact/' | relative_url }}"><div class="navy button medium hover_animate">Contact Us</div></a>
+                <a href="{{ 'register/' | relative_url }}"><div class="red button medium hover_animate">Register Now!</div></a>
+                <a href="{{ 'contact/' | relative_url }}"><div class="royal button medium hover_animate">Contact Us</div></a>
                 <a href="{{ 'about/' | relative_url }}"><div class="navy button medium hover_animate">Frequently Asked Questions</div></a>
             </div>
         </div>

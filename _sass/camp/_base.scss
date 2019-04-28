@@ -81,7 +81,7 @@ h1, h2, h3 {
 * Links
 */
 a {
-    color: $navy;
+    color: $royal;
     text-decoration: none;
 
     footer & {
@@ -240,6 +240,17 @@ pre {
 
     &.navy {
         border: 4px solid $navy;
+        color: $navy;
+    }
+
+    &.royal {
+        border: 4px solid $royal;
+        color: $royal;
+    }
+
+    &.red {
+        border: 4px solid $red;
+        color: $red;
     }
 
     &.large {
@@ -252,6 +263,11 @@ pre {
         padding: 6px 36px;
     }
 
+    &.small {
+        font-size: 20px;
+        padding: 4px 24px;
+    }
+
     &:hover {
         cursor: pointer;
         background: white;
@@ -260,7 +276,16 @@ pre {
 
         &.navy {
             background: $navy;
+            color: white;
+        }
 
+        &.royal {
+            background: $royal;
+            color: white;
+        }
+
+        &.red {
+            background: $red;
             color: white;
         }
     }
@@ -279,8 +304,19 @@ hr {
     margin: 4px 72px 2px;
 
     background: #000000;
+
+    &.h2 {
+        margin: -6px 72px 6px -4px;
+    }
 }
 
-h1.short {
+.short {
     line-height: 100%;
+}
+
+.vertically_center {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
 }

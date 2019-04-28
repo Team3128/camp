@@ -1,0 +1,15 @@
+<div class="levels">
+    {% for level in site.data.levels %}
+        <div class="level flexbox column" style="background: #{{ level.color }}">
+            <div class="title">
+                <h2>{{ level.title }}</h2>
+            </div>
+            
+            <div class="grade_levels">for {{ level.grades }} graders</div>
+
+            <div class="description" style="flex: 1 0 auto;">{{ level.description }}</div>
+
+            <a href="{{ 'programs#' | append: level.title | downcase | relative_url }}"><div class="button medium hover_animate">Learn More</div></a>
+        </div>
+    {% endfor %}
+</div>
