@@ -155,26 +155,6 @@
 }
 
 .program_page {
-    //background: #ececec;
-
-    // .chooser {
-    //     margin: 12px 0px 0px;
-
-    //     color: white;
-
-    //     display: grid;
-    //     grid-template-columns: repeat(3, 1fr);
-
-    //     grid-gap: 12px;
-
-    //     height: 200px;
-
-    //     .level {
-    //         clip-path: circle();
-    //     -webkit-clip-path: circle();
-    //     }
-    // }
-
     > .title {
         color: white;
 
@@ -232,15 +212,6 @@
 }
 
 .about_page {
-    .cover {
-        min-height: 400px;
-        background: rgba($color: #000000, $alpha: 0.5);
-
-        color: white;
-
-        padding: 24px;
-    }
-
     .what_do {
         margin: 0px 0px 36px;
         padding: 8px;
