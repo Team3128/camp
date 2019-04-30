@@ -31,7 +31,7 @@ layout: default
                 </div>
                 <div class="content">
                     <h2>Overview</h2>
-                    <hr class="h2">
+                    <hr class="smaller">
                     <div style="margin: 0px 0px 8px">
                         <b>Ages:</b> {{ level.ages }}<br>
                         <b>Dates:</b> {{ site.date_range }}<br>
@@ -54,7 +54,7 @@ layout: default
                 </div>
                 <div class="content">
                     <h2>Week Information</h2>
-                    <hr class="h2">
+                    <hr class="smaller">
                     This summer, we'll be offering the {{ level.title }} camp on the following weeks:
                     
                     <ul>
@@ -69,7 +69,7 @@ layout: default
                 </div>
                 <div class="content">
                     <h2>Registration</h2>
-                    <hr class="h2">
+                    <hr class="smaller">
                     {% if site.registration_open == 'yes' %}
                     Are your students ready to join us this summer? We're super excited to be able to share with them the awesome-est week of STEM of their lives! You can register for camp by clicking the button below!
                     {% else %}
@@ -80,15 +80,15 @@ layout: default
                     <div style="text-align: center">
                         {% if site.registration_open == 'yes' %}
                         <a href="{{ level.registration_link }}">
-                            <div class="red button small hover_animate">Register Now!</div>
+                            <div class="red button small animate">Register Now!</div>
                         </a>
                         {% else %}
                         <a href="{{ site.interest_link }}">
-                            <div class="red button small hover_animate">Get Notified when Registration Opens!</div>
+                            <div class="red button small animate">Get Notified when Registration Opens!</div>
                         </a>
                         {% endif %}
-                        <a href="{{ '/register/' | relative_url }}">
-                            <div class="navy button small hover_animate">Registration Policies</div>
+                        <a href="{{ '/register#policies' | relative_url }}">
+                            <div class="navy button small animate">Registration Policies</div>
                         </a>
                     </div>
                 </div>
@@ -98,7 +98,7 @@ layout: default
                 </div>
                 <div class="content">
                     <h2>Aftercare</h2>
-                    <hr class="h2">
+                    <hr class="smaller">
                     Camper pickup is at 3:00p, but sometimes, your campers need to stay a bit later. We get it; that’s why we have aftercare. Your campers can stay with us until 5:00 PM. <a href="{{ '/about#aftercare' | relative_url}}">Learn more about aftercare here.</a>
                 </div>
             </div>

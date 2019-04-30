@@ -46,6 +46,9 @@
             flex-direction: column;
 
             justify-content: center;
+
+            -webkit-box-shadow: inset 0px -2px 20px #000000;
+                    box-shadow: inset 0px -2px 20px #000000;
         }
         
 
@@ -63,11 +66,6 @@
             }
 
             hr {
-                height: 4px;
-                border: 0px;
-
-                margin: 4px 72px 16px;
-
                 background: white;
             }
 
@@ -195,6 +193,9 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+
+            -webkit-box-shadow: inset 0 0 15px #000000;
+                    box-shadow: inset 0 0 15px #000000;
         }
 
         .grade {
@@ -227,6 +228,39 @@
                 padding: 8px 0px 0px;
             }
         }
+    }
+}
+
+.about_page {
+    .cover {
+        min-height: 400px;
+        background: rgba($color: #000000, $alpha: 0.5);
+
+        color: white;
+
+        padding: 24px;
+    }
+
+    .what_do {
+        margin: 0px 0px 36px;
+        padding: 8px;
+
+        background: #eeeeee;
+    }
+
+    .detail_title {
+        padding: 8px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .detail_detail {
+        margin: 0px 0px 36px;
+        //padding: 28px 0px;
+
+        background: #eeeeee;
     }
 }
 
