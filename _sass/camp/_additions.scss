@@ -98,6 +98,10 @@
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 8px;
 
+            a:hover {
+                text-decoration: none;
+            }
+
             .benefit {
                 min-height: 300px;
 
@@ -121,6 +125,7 @@
     
                     &:hover {
                         background: rgba($color: #000000, $alpha: 0.7);
+
                         .elaboration {
                             -webkit-clip-path: inset(0px 0px 0px);
                                     clip-path: inset(0px 0px 0px);
