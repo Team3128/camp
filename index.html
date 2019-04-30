@@ -16,7 +16,8 @@ layout: default
         });
 
         function resize() {
-            $(".top").height($(window).height() - $("header").height());
+            $(".top").css({'min-height': $(window).height() - $("header").height() + '.px'});
+            $(".overlay").css({'min-height': $(window).height() - $("header").height() + '.px'});
         }
     </script>
 
@@ -50,7 +51,7 @@ layout: default
                 <i>Hover over the pictures below to learn more about what makes our camp unique.</i>
             </div>
 
-            <div class="benefits">
+            <div class="benefits grid two_col">
                 {% for benefit in site.data.benefits %}
                     <a href="{{ 'about/' | relative_url}}">
                         <div class="benefit" style="background-image: url({{ 'assets/photos/homepage/' | append: benefit.bg | relative_url }})">
@@ -96,7 +97,7 @@ layout: default
                 We're glad to see you here, and we'd be really excited to have your students join us this summer! If you have any questions about our camp (or just want to reach out and say hi), feel free to contact us! Also, don't forget to check out our Frequently Asked Questions for helpful answers to common inquiries.
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; text-align: center; margin-top: 16px;">
+            <div class="grid three_col" style="text-align: center; margin-top: 16px;">
                 <a href="{{ 'contact/' | relative_url }}"><div class="royal wide button medium animate">Contact Us</div></a>
                 <a href="{{ 'register/' | relative_url }}"><div class="red wide button medium animate">Register Now!</div></a>
                 <a href="{{ 'about#faq' | relative_url }}"><div class="navy wide button medium animate">FAQs</div></a>

@@ -1,10 +1,29 @@
+<script>
+    $(document).ready(function() {
+        closeNavigation();
+    });
+
+    function openNavigation() {
+        $('.small_navigation').css({'display': 'block'});
+        $('body').css({'overflow': 'hidden'});
+    }
+
+    function closeNavigation() {
+        $('.small_navigation').css({'display': 'none'});
+        $('body').css({'overflow': 'auto'});
+    }
+</script>
+
 <header class="flexbox row">
     <div class="logo">
         <a href="{{ site.baseurl }}/">
             <img src="{{ '/assets/graphics/logo.svg' | relative_url }}" />
         </a>
     </div>
-        
+
+    <div onclick="openNavigation()" class="nav_button">
+        &#9776;
+    </div>
 
     <div class="flexbox row navigation">
         {% for page in site.data.pages %}
@@ -14,3 +33,19 @@
         {% endfor %}
     </div>
 </header>
+
+<div class="small_navigation">
+    <div style="position: static" class="flex column">
+        <a onclick="closeNavigation()" style="text-align: right; font-size: 42px;" class="nav_element">
+            <div>&#10005;</div>
+        </a>
+        <a href="{{ '/' | relative_url }}" class="nav_element">
+            <div>Home</div>
+        </a>
+        {% for page in site.data.pages %}
+            <a href="{{ page.permalink | relative_url }}" class="nav_element">
+                <div>{{ page.title }}</div>
+            </a>
+        {% endfor %}
+    </div>
+</div>

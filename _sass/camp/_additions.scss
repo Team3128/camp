@@ -1,8 +1,4 @@
 .levels {    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    grid-column-gap: 16px;
     margin: 4px 0px;
 
     .level {
@@ -30,7 +26,14 @@
     }
 }
 
+@include media-query($medium-width) {
+    .overlay {
+        padding: 12px 42px;
+    }
+}
+
 .homepage {
+
     .top {
         background: url(photos/homepage/top.jpg) no-repeat top center fixed; 
         -webkit-background-size: cover;
@@ -40,6 +43,9 @@
 
         .overlay {
             height: 100%;
+
+            padding: 72px 42px;
+
             background: rgba($color: #000000, $alpha: 0.5);
 
             display: flex;
@@ -54,7 +60,6 @@
 
         .tagline {
             position: relative;
-            top: -40px;
 
             color: white;
             text-align: center;
@@ -72,8 +77,6 @@
             .details {
                 font-family: $header-font-family;
                 
-                margin: 0px 96px;
-
                 font-size: 28px;
                 line-height: 34px;
             }
@@ -88,15 +91,11 @@
         }
 
         .benefits {
-            display: grid;
             margin: 4px 0px;
 
             h2 {
                 text-align: center;
             }
-
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 8px;
 
             a:hover {
                 text-decoration: none;
@@ -238,9 +237,69 @@
 
         background: #eeeeee;
     }
+
+    .schedule {
+        margin-top: 12px;
+        grid-template-columns: 4fr 3fr;
+
+        @include media-query(700px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+.small_navigation {
+    z-index: 2;
+
+    position: fixed;
+
+    overflow-y: scroll;
+
+    text-align: center;
+    justify-content: center; 
+
+    top: 0px;
+    bottom: 0px;
+
+    left: 0px;
+    right: 0px;
+
+    background: rgba($color: #000000, $alpha: 0.7);
+
+    .nav_element {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+
+        flex: 0 0 auto;
+
+        color: white;
+        font-family: $header-font-family;
+        font-size: 32px;
+
+        margin: 0px 4px;
+        padding: 16px;
+    }
 }
 
 header {
+    @include default-media-query(1150px) {
+        .nav_button {
+            display: none;
+        }
+    }
+
+    @include media-query(1150px) {
+        .nav_button {
+            display: flex;
+        }
+
+        .navigation{
+            display: none; 
+        }
+    }
+
     height: $header-height;
     background: $navy;
 
@@ -253,7 +312,6 @@ header {
         img {
             height: 100%;
         }
-
     }
 
     .navigation {
@@ -262,29 +320,60 @@ header {
         div {
             line-height: 20px;
         }
+    }
 
-        .nav_element {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
+    .nav_button {
+        height: 100%;
+        flex-direction: column;
 
-            justify-content: center;
+        justify-content: center;
 
-            flex: 0 0 auto;
+        flex: 0 0 auto;
+
+        color: white;
+        font-family: $header-font-family;
+        font-size: 32px;
+
+        margin: 0px 4px;
+        padding: 0px 28px;
+
+        background: lighten($color: $navy, $amount: 0.4);
+
+        &:hover {
+            text-decoration: none;
+            cursor: pointer;
 
             color: white;
-            font-family: $header-font-family;
-            font-size: 20px;
 
-            margin: 0px 4px;
-            padding: 0px 28px;
+            background: rgba($color: #000000, $alpha: 0.4);
+        }
+    }
 
-            &:hover {
-                text-decoration: none;
-                cursor: pointer;
+    .nav_element {
+        height: 100%;
 
-                background: rgba($color: #000000, $alpha: 0.4);
-            }
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+
+        flex: 0 0 auto;
+
+        color: white;
+        font-family: $header-font-family;
+        font-size: 20px;
+
+        margin: 0px 4px;
+        padding: 0px 28px;
+
+        &:hover {
+            text-decoration: none;
+            cursor: pointer;
+
+            color: white;
+
+
+            background: rgba($color: #000000, $alpha: 0.4);
         }
     }
 }

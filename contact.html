@@ -26,7 +26,7 @@ layout: default
             <hr>
             <h2>If you need to contact someone during camp, please contact the respective camp supervisor:
 
-            <div style="text-align: center; display: grid; grid-template-columns: repeat({{ site.data.weeks | size }}, 1fr)">
+            <div class="grid three_col" style="text-align: center;">
                 {% for week in site.data.weeks %}
                     <div style="font-size: 24px; padding: 12px 0px">
                         <b>{{ week.name }}</b>

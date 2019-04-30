@@ -46,6 +46,12 @@ $medium-width:     800px;
     }
 }
 
+@mixin default-media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
 @mixin relative-font-size($ratio) {
     font-size: $base-font-size * $ratio;
 }
