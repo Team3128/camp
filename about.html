@@ -8,7 +8,27 @@ layout: default
         $('#food').addClass('clipped');
         $('#aftercare').addClass('clipped');
         $('#faq').addClass('clipped');
+
+        if (window.location.hash) {
+            expand(window.location.hash.substring(0, window.location.hash.length - 6));
+        }
+
+        $("a").click(function() {
+            href = $(this).attr('href');
+
+            console.log(href.substring(href.length - 6));
+
+            if (href.substring(href.length - 6) == "_title") {
+                console.log(href.substring(0, href.length - 6));
+                expand(href.substring(0, href.length - 6));
+            }
+        });
     });
+    
+    function expand(id) {
+        $(id).addClass('unclipped');
+        $(id).removeClass('clipped');
+    }
 
     function toggle(id) {
         $('#' + id).toggleClass('clipped');
@@ -106,7 +126,7 @@ layout: default
         <hr>
     </div>
 
-    <div onclick="toggle('schedule')" class="detail_title" style="background: #1b1464">
+    <div id="schedule_title" onclick="toggle('schedule')" class="detail_title" style="background: #1b1464">
         <div style="align-items: center; color: white;" class="wrapper flexbox row">
             <img style="height: 64px; margin-right: 8px;" src="{{ '/assets/graphics/expand.svg' | relative_url }}" />
             <h1>Schedule</h1>
@@ -177,7 +197,7 @@ layout: default
         </div>
     </div>
 
-    <div onclick="toggle('food')" class="detail_title" style="background: #072682;">
+    <div id="food_title" onclick="toggle('food')" class="detail_title" style="background: #072682;">
         <div style="align-items: center; color: white;" class="wrapper flexbox row">
             <img style="height: 64px; margin-right: 8px;" src="{{ '/assets/graphics/expand.svg' | relative_url }}" />
             <h1>Food Plan</h1>
@@ -226,7 +246,7 @@ layout: default
         </div>
     </div>
 
-    <div onclick="toggle('aftercare')" class="detail_title" style="background: #0068a5;">
+    <div id="aftercare_title" onclick="toggle('aftercare')" class="detail_title" style="background: #0068a5;">
         <div style="align-items: center; color: white;" class="wrapper flexbox row">
             <img style="height: 64px; margin-right: 8px;" src="{{ '/assets/graphics/expand.svg' | relative_url }}" />
             <h1>Aftercare</h1>
@@ -261,7 +281,7 @@ layout: default
         </div>
     </div>
 
-    <div onclick="toggle('faq')" class="detail_title" style="background: #0085b2;">
+    <div id="faq_title" onclick="toggle('faq')" class="detail_title" style="background: #0085b2;">
         <div style="align-items: center; color: white;" class="wrapper flexbox row">
             <img style="height: 64px; margin-right: 8px;" src="{{ '/assets/graphics/expand.svg' | relative_url }}" />
             <h1>Frequently Asked Questions</h1>
@@ -269,7 +289,42 @@ layout: default
     </div>
     <div id="faq" class="detail_detail animate">
         <div class="wrapper">
-            <i> whups ill make these eventually </i>        
+            <div class="textblock">
+                <h3>Where is camp located?</h3>
+                Our camp is held at <a href="http://cc.sduhsd.net">Canyon Crest Academy</a>. The address of CCA is 5951 Village Center Loop Rd., San Diego, CA 92130.
+            </div>
+
+            <div class="textblock">
+                <h3>When is camp offered?</h3>
+                This summer, we'll be offering camps the following {{ site.data.weeks | size }} weeks: 
+                <ul>
+                    {% for week in site.data.weeks %}
+                        <li>{{ week.start_date }} -  {{ week.end_date }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="textblock">
+                <h3>When is camp during the day?</h3>
+                Camp runs from 9:00am to 3:00pm, with pickup starting at 8:30am and drop-off lasting until 3:30pm. You can <a href="#schedule_title">find our full schedule here</a>.
+            </div>
+
+            <div class="textblock">
+                <h3>Can my camper stay later than 3:30pm?</h3>
+                If you cannot pick up your campers at 3:30pm, we get it; that's why we have Aftercare. Campers in Aftercare can stay until 5:00pm. <a href="#aftercare_title">Learn more about Aftercare here</a>.
+            </div>
+
+            <div class="textblock">
+                <h3>How can I register for camp?</h3>
+
+                {% if site.registration_open == 'yes' %}
+                    To register for camp, head over to our <a href="{{ '/programs' | relative_url }}">programs page</a>, find the camp program that is for the grade levels of your camper, and click the green registration button!
+                {% else %}
+                    Camp registration hasn't opened yet, so if you'd like to be notied when registration opens, please fill out the <a href="{{ site.interest_link }}">2019 Robotics Summer Camp Interest Form</a>!
+                {% endif %}
+
+                We can't wait to see your campers this summer!
+            </div>
         </div>
     </div>
 
