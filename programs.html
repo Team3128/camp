@@ -16,7 +16,7 @@ permalink: /programs/
         {% include levels.html %}
     </div>
     {% for level in site.data.levels %}
-        <div id="{{ level.title | downcase}}" class="title" style="background: #{{ level.color }}">
+        <div id="{{ level.title | downcase }}" class="title" style="background: #{{ level.color }}">
             <div class="header_img" style="width: 100%; height: 300px; background-position: {{ level.image_align }} center; background-image: url({{ 'assets/photos/programs/' | append: level.title | downcase | append: '.jpg' | relative_url}})"> </div>
             <div class="flexbox row wrapper" style="align-items: flex-end; padding: 12px 0px;">
                 <div class="grade vertically_center">
