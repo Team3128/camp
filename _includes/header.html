@@ -1,17 +1,51 @@
-<div class="top-bar" id="main-menu">
-  <div class="top-bar-left">    
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li>
-         <a href="{{ "/" | prepend: site.baseurl }}"><img width="5%" src="/camp/assets/graphics/logo.png"></img> Robotics Summer Camps at Canyon Crest Academy</a>
-        </li>
-      </ul>
-   </div>
+<script>
+    $(document).ready(function() {
+        closeNavigation();
+    });
 
-   <div class="top-bar-right">
-    <ul class="menu" data-responsive-menu="drilldown medium-dropdown">
-      <li><a href="{{ "/about" | prepend: site.baseurl }}">About Us</a></li>
-      <li><a href="{{ "/register" | prepend: site.baseurl }}">Dates &amp; Registration</a></li>
-      <li><a href="{{ "/contact" | prepend: site.baseurl }}">Contact</a></li>
-    </ul>
-  </div>
+    function openNavigation() {
+        $('.small_navigation').css({'display': 'block'});
+        $('body').css({'overflow': 'hidden'});
+    }
+
+    function closeNavigation() {
+        $('.small_navigation').css({'display': 'none'});
+        $('body').css({'overflow': 'auto'});
+    }
+</script>
+
+<header class="flexbox row">
+    <div class="logo">
+        <a href="{{ site.baseurl }}/">
+            <img src="{{ '/assets/graphics/logo.svg' | relative_url }}" />
+        </a>
+    </div>
+
+    <div onclick="openNavigation()" class="nav_button">
+        &#9776;
+    </div>
+
+    <div class="flexbox row navigation">
+        {% for page in site.data.pages %}
+        <a href="{{ page.permalink | relative_url }}" class="nav_element">
+            <div>{{ page.title }}</div>
+        </a>
+        {% endfor %}
+    </div>
+</header>
+
+<div class="small_navigation">
+    <div style="position: static" class="flex column">
+        <a onclick="closeNavigation()" style="text-align: right; font-size: 42px;" class="nav_element">
+            <div>&#10005;</div>
+        </a>
+        <a href="{{ '/' | relative_url }}" class="nav_element">
+            <div>Home</div>
+        </a>
+        {% for page in site.data.pages %}
+            <a href="{{ page.permalink | relative_url }}" class="nav_element">
+                <div>{{ page.title }}</div>
+            </a>
+        {% endfor %}
+    </div>
 </div>

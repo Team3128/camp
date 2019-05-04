@@ -1,0 +1,331 @@
+---
+layout: default
+---
+
+<script>
+    $(document).ready(function() {
+        $('#schedule').addClass('clipped');
+        $('#food').addClass('clipped');
+        $('#aftercare').addClass('clipped');
+        $('#faq').addClass('clipped');
+
+        if (window.location.hash) {
+            expand(window.location.hash.substring(0, window.location.hash.length - 6));
+        }
+
+        $("a").click(function() {
+            href = $(this).attr('href');
+
+            console.log(href.substring(href.length - 6));
+
+            if (href.substring(href.length - 6) == "_title") {
+                console.log(href.substring(0, href.length - 6));
+                expand(href.substring(0, href.length - 6));
+            }
+        });
+    });
+    
+    function expand(id) {
+        $(id).addClass('unclipped');
+        $(id).removeClass('clipped');
+    }
+
+    function toggle(id) {
+        $('#' + id).toggleClass('clipped');
+        $('#' + id).toggleClass('unclipped');
+    }
+</script>
+
+<div class="about_page">
+    <div class="scaling_bg" style="min-height: 400px; background-position: center center; background-image: url({{ 'assets/photos/about/mission.jpg' | relative_url }});">
+        <div class="page_title_cover vertically_center">
+            <div class="wrapper">
+                <div style="text-align: center;">
+                    <h1 class="short">About Our Camp</h1>
+                    <hr style="background: white;">
+                </div>
+                <h2>
+                    Our goal as a camp is to create a collaborative and fun atmosphere for preteens and middle school students that allows 
+                    them to become aware of and excited about science, technology, engineering and math. We want to provide a safe space 
+                    where students can explore and develop a passion for new subjects that they might desire to pursue in middle school, 
+                    high school, and throughout the rest of their lives.
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper" style="margin-top: 36px; text-align: center;">
+        <h1 class="short">What Happens at Camp?</h1>
+        <hr>
+    </div>
+
+    <div class="what_do">
+        <div class="wrapper block">
+            <div class="grid img_block left">
+                <div class="image">
+                    <img class="block_shadow" src="{{ '/assets/photos/about/challenges.jpg' | relative_url }}" />
+                </div>
+                <div class="text">
+                    <h2>Engaging Challenges in Building Robots</h2>
+
+                    First and foremost, our camp is a robotics camp. Each week, campers split up into teams of 2-4 students and are given various
+                    tasks to perform with their robot. To accomplish these tasks, campers must build and program their robot to move, mamiuplate
+                    objects, and detect its surroundings in unique (and not always obvious) ways. During the week, teams race against each other
+                    to come up with clever and creative ways to accomplish the tasks, and they can learn from each other to learn new perspectives
+                    to approach the challenges.
+        
+                    <br><br>
+        
+                    Throughout the week, camp counselors are always around to help lead campers in the right direction. They provide advice on how
+                    to solve problems campers face as well as how to turn their ideas into a working robot. Our goal is to give campers the freedom to
+                    explore, create, and innovate and to empower them to bring their imaginations to life through the robots they build.
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="what_do">
+        <div class="wrapper block">
+            <div class="grid img_block right">
+                <div class="image">
+                    <img class="block_shadow" src="{{ '/assets/photos/about/competition.jpg' | relative_url }}" />
+                </div>
+                <div class="text">
+                    <h2>Exciting Competition with Other Campers</h2>
+
+                    There's nothing like a little friendly competition, right? In our Curiosity and Opportunity programs, campers have the second half of
+                    the week to design, build, and program their very own robot to compete against other robots in a specially designed robotics competition
+                    game. At the end of the week, campers can showcase their designs to their families in our Family Open House, as well as engage in an
+                    friendly but intense competition against other teams of campers to prove their robot.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="what_do">
+        <div class="wrapper block">
+            <div class="grid img_block left">
+                    <div class="image">
+                        <img class="block_shadow" src="{{ '/assets/photos/about/recreation.jpg' | relative_url }}" />
+                    </div>
+    
+                    <div class="text">
+                        <h2>Indoor and Outdoor Recreation</h2>
+
+                        What would a summer camp be without some fun outside? Each day, we'll spend some time outside to get our muscles moving, with games like
+                        Capture the Flag, Ninja, Dodgeball, Ultimate Frisbee and more. We also have indoor activities to stimulate the brains of our campers and
+                        counselors and allow them to socialize. Oh yeah, snacks and lunch are also included.
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="wrapper" style="margin-top: 48px; text-align: center;">
+        <h1 class="short">Additional Camp Details</h1>
+        <hr>
+    </div>
+
+    <div id="schedule_title" onclick="toggle('schedule')" class="detail_title" style="background: #1b1464">
+        <div style="align-items: center; color: white;" class="wrapper flexbox row">
+            <img style="height: 64px; margin-right: 8px;" src="{{ '/assets/graphics/expand.svg' | relative_url }}" />
+            <h1>Schedule</h1>
+        </div>
+    </div>
+    <div id="schedule" class="detail_detail animate">
+        <div class="wrapper">
+            <div class="textblock">
+                During each week of camp, we keep a consistent schedule that maximizes the amount of learning and fun campers can have building robots, while building in time to run around, eat, and just hang out.
+            </div>
+
+            <div class="textblock">
+                We typically meet five days a week, and each day we have special events built in, but its all structure around the same basic schedule:
+            </div>
+
+            <div class="grid schedule">
+                <div>
+                    <h2>Typical Daily Schedule</h2>
+
+                    <div class="grid" style="grid-template-columns: 170px 1fr; grid-gap: 4px;">
+                        <div>8:30am - 9:00am</div>
+                        <div>Camper Drop-Off at Administration Building</div>
+
+                        <div>9:00am - 10:30am</div>
+                        <div>Build Session in Competition Rooms</div>
+
+                        <div>10:30am - 10:45am</div>
+                        <div>Snack Time in Amphitheater</div>
+
+                        <div>10:45am - 12:15pm</div>
+                        <div>Build Session in Competition Rooms</div>
+
+                        <div>12:15pm - 12:45pm</div>
+                        <div>Lunch Time in Amphitheater</div>
+                        
+                        <div>12:45p - 1:15pm</div>
+                        <div>Recreation Time (Multiple Location)</div>
+
+                        <div>1:15pm - 3:30pm</div>
+                        <div>Build Session in Competition Rooms</div>
+
+                        <div>3:00pm - 3:30pm</div>
+                        <div>Pick Up at Administration Building</div>
+
+                        <div>3:30pm - 5:00pm</div>
+                        <div>Aftercare Pickup</div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>Special Events</h2>
+
+                    <div class="textblock">
+                        Some special events this summer include:
+                    </div>
+                    <div class="textblock">
+                        <b>Demo Day:</b> One of the days of camp, we’ll bring out our high school robots and give campers a chance to control them. You can conquer obstacle courses, race against other robots, or just see how fast you can kick a soccer ball.
+                    </div>
+                    <div class="textblock">
+                        <b>Competition Kickoff Brainstorm:</b> On Wednesday, we’ll kick off our three-day tournament with a strategy session that will help campers figure out how to attack this year’s competition game. Counselors and campers will collaborate in groups to figure out how to go about building their robot and playing the game over the next three days.
+                    </div>
+                    <div class="">
+                        <b>Counselors vs Campers Ultimate Frisbee Game:</b> Everyone loves Ultimate Frisbee, and each week our group of undefeated counselors take on a group of 48 campers to see just who can win in our Annual Ultimate Frisbee Throwdown!
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="food_title" onclick="toggle('food')" class="detail_title" style="background: #072682;">
+        <div style="align-items: center; color: white;" class="wrapper flexbox row">
+            <img style="height: 64px; margin-right: 8px;" src="{{ '/assets/graphics/expand.svg' | relative_url }}" />
+            <h1>Food Plan</h1>
+        </div>
+    </div>
+    <div id="food" class="detail_detail animate">
+        <div class="wrapper">
+            <div class="textblock">
+                Kids are able to bring their own lunches any day of camp. Our weekly plan features local food companies that provide kid friendly options. Please let your camper’s Room Leader know about any special dietary circumstances.
+            </div>
+
+            <h2>Snacks</h2>
+            <div class="textblock">
+                Each day camper’s will have morning snack available including goldfish, fruit snacks, apples and clementines. Water and Capri Sun is also provided.
+            </div>
+
+            <div class="textblock">
+                <b>Monday/Wednesday</b>
+                <ul>
+                    <li>Pepperoni and Cheese Pizza
+                    <li>Salad (Buffet Style)
+                    <li>Sides: Apples, Rice Krispies
+                    <li>Water
+                </ul>
+            </div>
+
+            <div class="textblock">
+                <b>Tuesday/Thursday</b>
+                <ul>
+                    <li>Jersey Mike’s, Turkey, Ham, or Veggie Sandwhiches
+                    <li>Salad (Buffet Style)
+                    <li>Sides: Apples, Chips
+                    <li>Water
+                </ul>
+            </div>
+            
+            <div class="">
+                <b>Friday</b>
+                <ul>
+                    <li>Pasta: Mac & Cheese, Fettuccine Alfredo, Spaghetti & Meat Sauce
+                    <li>Salad (Buffet Style)
+                    <li>Sides: Apples, Rice Krispies
+                    <li>Water
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="aftercare_title" onclick="toggle('aftercare')" class="detail_title" style="background: #0068a5;">
+        <div style="align-items: center; color: white;" class="wrapper flexbox row">
+            <img style="height: 64px; margin-right: 8px;" src="{{ '/assets/graphics/expand.svg' | relative_url }}" />
+            <h1>Aftercare</h1>
+        </div>
+    </div>
+    <div id="aftercare" class="detail_detail animate">
+        <div class="wrapper">
+            <div class="textblock">
+                <h3>What is Aftercare?</h3>
+                Our camp offers extended care for students that need to get picked up later. Usually our camps end at 3p with pickup lasting until 3:30p. For campers that need to stay later, we offer additional care for a fee.
+            </div>
+
+            <div class="textblock">
+                <h3>When is pickup time?</h3>
+                Campers in the Aftercare program need to get picked up at 5pm.
+            </div>
+            
+            <div class="textblock">
+                <h3>What will campers do during this time?</h3>
+                Campers will be supervised by out staff and play indoor or outdoor games, watch movies, or even take a tour of our robotics workshop.
+            </div>
+
+            <div class="textblock">
+                <h3>How much does it cost?</h3>
+                A week of Aftercare costs $100. This can be written as a check to Canyon Crest Academy Foundation, and either mailed or dropped off on the first day of camp. See our registration policies for more information on payment.
+            </div>
+
+            <div class="textblock">
+                <h3>How do I sign up?</h3>
+                In order to sign up, please bring the payment (above) to your first day of robotics camp. You’ll be able to sign up during the initial check in.  
+            </div>          
+        </div>
+    </div>
+
+    <div id="faq_title" onclick="toggle('faq')" class="detail_title" style="background: #0085b2;">
+        <div style="align-items: center; color: white;" class="wrapper flexbox row">
+            <img style="height: 64px; margin-right: 8px;" src="{{ '/assets/graphics/expand.svg' | relative_url }}" />
+            <h1>Frequently Asked Questions</h1>
+        </div>
+    </div>
+    <div id="faq" class="detail_detail animate">
+        <div class="wrapper">
+            <div class="textblock">
+                <h3>Where is camp located?</h3>
+                Our camp is held at <a href="http://cc.sduhsd.net">Canyon Crest Academy</a>. The address of CCA is 5951 Village Center Loop Rd., San Diego, CA 92130.
+            </div>
+
+            <div class="textblock">
+                <h3>When is camp offered?</h3>
+                This summer, we'll be offering camps the following {{ site.data.weeks | size }} weeks: 
+                <ul>
+                    {% for week in site.data.weeks %}
+                        <li>{{ week.start_date }} -  {{ week.end_date }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="textblock">
+                <h3>When is camp during the day?</h3>
+                Camp runs from 9:00am to 3:00pm, with pickup starting at 8:30am and drop-off lasting until 3:30pm. You can <a href="#schedule_title">find our full schedule here</a>.
+            </div>
+
+            <div class="textblock">
+                <h3>Can my camper stay later than 3:30pm?</h3>
+                If you cannot pick up your campers at 3:30pm, we get it; that's why we have Aftercare. Campers in Aftercare can stay until 5:00pm. <a href="#aftercare_title">Learn more about Aftercare here</a>.
+            </div>
+
+            <div class="textblock">
+                <h3>How can I register for camp?</h3>
+
+                {% if site.registration_open == 'yes' %}
+                    To register for camp, head over to our <a href="{{ '/programs' | relative_url }}">programs page</a>, find the camp program that is for the grade levels of your camper, and click the green registration button!
+                {% else %}
+                    Camp registration hasn't opened yet, so if you'd like to be notied when registration opens, please fill out the <a href="{{ site.interest_link }}">2019 Robotics Summer Camp Interest Form</a>!
+                {% endif %}
+
+                We can't wait to see your campers this summer!
+            </div>
+        </div>
+    </div>
+
+</div>

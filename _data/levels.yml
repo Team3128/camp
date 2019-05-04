@@ -1,0 +1,55 @@
+- title: InSight
+  color: 1b1464
+  grades: 1st – 4th
+  ages: 6 – 10 years
+  price: $410
+  description: 
+    Campers learn the fundamentals of physics and basic engineering principles through building simple machines with VEX
+    IQ robotics kits. Throughout the week, we'll work our way up to building a robot that can be controlled with a joystick!
+  image_align: top
+  long_description:
+    This summer, we have an awesome camp for our elementary students! Get started by building simple machines that come
+    together to create an awesome robot that you can control through a joystick.
+    <br><br>
+    All week, campers will be engaged in learning about science, technology, engineering, and mathematics using VEX IQ
+    robot kits. During the week, we will build simple machines powered by motors. Then, students will bring those separate
+    parts together to create a bigger robot that they can control via a joystick. We’ll be building different robots on
+    different days, so come and join us!  
+
+- title: Curiosity
+  color: 072682
+  grades: 5th & 6th
+  ages: 10 – 12 years
+  price: $450
+  description:
+    Whether your student has never built a robot before or has some experience, this is the place for them! We’ll show them
+    basic mechanical design and programming using versatile yet easy-to-learn software and robotics kits. Using VEX IQ robotics
+    sets, campers design, build, and program robots to complete complex challenges.
+  image_align: top
+  long_description:
+    This summer, we’re proud to offer a week of fun where campers can come and build awesome robots, run around, and have fun.
+    All week we’ll be using VEX IQ robot sets to build robots that complete complex challenges that teach campers mechanical
+    and programming skills, while getting them excited about engineering and technology.
+    <br><br>
+    Not only will we get students going on build robots, they’ll also get to compete against each other by trying to score the
+    most points in our end of the week competition. And every step of the way we’ll have counselors and staff alongside them to
+    make sure they get the guidance they need to reach their goal.
+
+- title: Opportunity
+  color: 0068a5
+  grades: 7th & 8th
+  ages: 12 – 14 years
+  price: $450
+  image_align: bottom
+  description:
+    Our upper camp is aimed at students who want to start learning text-based programming and working in larger groups to create
+    more complex and incredibly powerful robots. While still accessible for beginners, we use more advanced TETRIX robot sets that
+    enable campers to go beyond and build awesome robots.
+  long_description: 
+    This summer, we’re proud to offer a week of fun where campers can come and build awesome robots, run around, and have fun. 
+    All week we’ll be using TETRIX robot sets to build robots that complete complex challenges that teach campers mechanical and 
+    programming skills, while getting them excited about engineering and technology.
+    <br><br>
+    Not only will we get students going on build robots, they’ll also get to compete against each other by trying to score the 
+    most points in our end of the week competition. And every step of the way we’ll have counselors and staff alongside them to 
+    make sure they get the guidance they need to reach their goal.

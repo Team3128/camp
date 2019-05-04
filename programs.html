@@ -1,0 +1,110 @@
+---
+layout: default
+---
+
+<div class="program_page">
+    <div class="wrapper" style="text-align: center;">
+        <br>
+        <h1 class="short">Our Programs</h1>
+        <hr>
+        <div>
+        Each week, we offer each of <b>three levels</b> of camp to cater to students in grades first through eighth.
+        </div>
+
+        {% include levels.html %}
+    </div>
+    {% for level in site.data.levels %}
+        <div id="{{ level.title | downcase}}" class="title" style="background: #{{ level.color }}">
+            <div class="header_img" style="width: 100%; height: 300px; background-position: {{ level.image_align }} center; background-image: url({{ 'assets/photos/programs/' | append: level.title | downcase | append: '.jpg' | relative_url}})"> </div>
+            <div class="flexbox row wrapper" style="align-items: flex-end; padding: 12px 0px;">
+                <div class="grade vertically_center">
+                    <h2 class="short">{{ level.grades }}</h2>
+                    <div style="font-size: 14px" class="short">grades</div>
+                </div>
+                <h1>{{ level.title }}</h1>
+            </div>
+        </div>
+        <div class="details">
+            <div class="detailgrid wrapper">
+                <div class="icon" style="background: #c4c4c4">
+                    <img src="{{ 'assets/graphics/programs/overview.png' | relative_url }}"/>
+                </div>
+                <div class="content">
+                    <h2>Overview</h2>
+                    <hr class="smaller">
+                    <div style="margin: 0px 0px 8px">
+                        <b>Ages:</b> {{ level.ages }}<br>
+                        <b>Dates:</b> {{ site.date_range }}<br>
+                    </div>
+                    <div>
+                        <b>Times:</b> 9:00am – 3:00pm <br>
+                        &nbsp &nbsp &nbsp <i>Drop-Off Starts:</i> 8:30am | <i>Pick-Up Ends:</i> 3:30pm <br>
+                        <b>Location:</b> Canyon Crest Academy<br>
+                        <b>Rates:</b> {{ level.price }}<br>
+                        &nbsp &nbsp &nbsp <i>Includes:</i> Camp t-shirt, snacks and lunch, a week of awesome fun, and unforgettable memories.
+                    </div>
+
+                    <br>
+                    
+                    {{ level.long_description }}
+                </div>
+
+                <div class="icon" style="background: #c4c4c4">
+                    <img src="{{ 'assets/graphics/programs/weeks.png' | relative_url }}"/>
+                </div>
+                <div class="content">
+                    <h2>Week Information</h2>
+                    <hr class="smaller">
+                    This summer, we'll be offering the {{ level.title }} camp on the following weeks:
+                    
+                    <ul>
+                        {% for week in site.data.weeks %}
+                            <li> <b>{{ week.name }}:</b> {{ week.start_date }} – {{ week.end_date }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div class="icon" style="background: #c4c4c4">
+                    <img src="{{ 'assets/graphics/programs/registration.png' | relative_url }}"/>
+                </div>
+                <div class="content">
+                    <h2>Registration</h2>
+                    <hr class="smaller">
+                    {% if site.registration_open == 'yes' %}
+                    Are your students ready to join us this summer? We're super excited to be able to share with them the awesome-est week of STEM of their lives! You can register for camp by clicking the button below!
+                    {% else %}
+                    The registration period has not yet opened. However, if you are interested in enrolling campers this summer, let us know and we will alert you as soon as registration is open!
+                    {% endif %}
+                    <br><br>
+                    Also, be sure to check out our registration policies for information regaurding payment, cancellations, refunds, etc.
+                    <div style="text-align: center">
+                        {% if site.registration_open == 'yes' %}
+                        <a href="{{ level.registration_link }}">
+                            <div class="red button small animate">Register Now!</div>
+                        </a>
+                        {% else %}
+                        <a href="{{ site.interest_link }}">
+                            <div class="red button small animate">Get Notified when Registration Opens!</div>
+                        </a>
+                        {% endif %}
+                        <a href="{{ '/register#policies' | relative_url }}">
+                            <div class="navy button small animate">Registration Policies</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="icon" style="background: #c4c4c4">
+                    <img src="{{ 'assets/graphics/programs/aftercare.png' | relative_url }}"/>
+                </div>
+                <div class="content">
+                    <h2>Aftercare</h2>
+                    <hr class="smaller">
+                    Camper pickup is at 3:00p, but sometimes, your campers need to stay a bit later. We get it; that’s why we have aftercare. Your campers can stay with us until 5:00 PM. <a href="{{ '/about#aftercare_title' | relative_url}}">Learn more about aftercare here.</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    
+
+</div>
+

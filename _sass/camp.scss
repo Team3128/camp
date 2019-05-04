@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+// Our variables
+$header-font-family: "Questrial", Helvetica, Arial, sans-serif;
+$header-height:    80px;
+
+$base-font-family: "Lato", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #000000;
+$background-color: #ffffff;
+
+$navy:             #1b1464;
+$royal:            #072682;
+$sapphire:         #0068a5;
+$pacific:          #0085b2;
+
+$red:              #00a51b;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+// Width of the content area
+$content-width:    1200px;
+
+$small-width:      600px;
+$medium-width:     800px;
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin default-media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
+@mixin relative-font-size($ratio) {
+    font-size: $base-font-size * $ratio;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+    "camp/additions",
+    "camp/base"
+;

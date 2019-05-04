@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<div class="register_page">
+    <div class="scaling_bg" style="min-height: 400px; background-position: center center; background-image: url({{ 'assets/photos/register/top.jpg' | relative_url }});">
+        <div class="page_title_cover vertically_center">
+            <div class="wrapper">
+                <div style="text-align: center;">
+                    <h1 class="short">Dates and Registration</h1>
+                    <hr style="background: white;">
+                </div>
+                <h2>
+                    This summer, we'll be offering our camp for the following {{ site.data.weeks | size }} weeks.
+                    On each of the weeks, we'll be offering all three programs of our camp. In order to register for 
+                    any of our programs on any of the weeks, visit the respective page for the program.
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper block" style="margin-top: 36px; text-align: center;">
+        <h1 class="short">Week Offerings</h1>
+        <hr>
+
+        <div class="grid three_col">
+            {% for week in site.data.weeks %}
+                <div style="font-size: 24px; padding: 12px 0px">
+                   <b>{{ week.name }}</b>
+                   <br>
+                   {{ week.start_date }} - {{ week.end_date }}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="camp_levels" style="text-align: center; background: #e4e4e4;">
+        <div class="wrapper block">
+            <h1 class="short">Our Programs</h1>
+            <hr>
+            <div>
+            Each week, we offer each of <b>three levels</b> of camp to cater to students in grades first through eighth.
+            </div>
+
+            {% include levels.html %}
+        </div>
+    </div>
+
+    <div id="policies" class="wrapper block">
+        <h1 style="text-align: center;">Registration Policies</h1>
+        <hr>
+        The following details our policies regarding the registration process:
+
+        <div class="textblock">
+            <h2>Payment Deadline</h2>
+            All payments are due by June 15th.
+        </div>
+
+        <div class="textblock">
+            <h2>Pay Online</h2>
+            The online registration forms are linked to on the individual program information pages, linked above.
+        </div>
+
+        <div class="textblock">
+            <h2>Pay by Check</h2>
+            Checks should be made payable to ‘Canyon Crest Academy Foundation’. They can be either mailed to or dropped off at the Canyon Crest Academy Foundation office at
+            <br>
+            <b>5951 E Village Center Loop Rd,<br>
+            San Diego, CA 92130</b>
+        </div>
+
+        <div class="textblock">
+            <h2>Refunds</h2>
+            Full refunds are available until June 15th due to the time required to replace spots.
+        </div>
+
+        <div class="textblock">
+            <h2>Wait List</h2>
+            When a camp week has become full, campers may join a wait list. If a slot becomes available, campers on the wait list will be contacted in the order they registered and given a reasonable amount of time to respond and claim their spot.
+        </div>
+    </div>
+</div>

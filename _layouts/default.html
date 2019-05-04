@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html>
 
-  {% include head.html %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+</script>
 
-  <body>
+<script>
+    $(document).ready(function(){
+        $( "a.scroll_link" ).click(function( event ) {
+            event.preventDefault();
+            $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+        });
+    });
+</script>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include head.html %}
+    <body>
+        {% include header.html %}
+        <main class="page-content" aria-label="Content">
+            {{ content }}
+        </main>
+        {% include footer.html %}
+    </body>
 </html>

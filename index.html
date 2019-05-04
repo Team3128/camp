@@ -2,82 +2,106 @@
 layout: default
 ---
 
-    <div class="front-grid">
-      <div class="row">
-        <div class="interested">
-          <h3><b>Looking for information about our 2019 Camp?</b></h3>
-          You're in the perfect place! We're just about finalizing the details of summer camp this year; if you'd like to get information about our camp and get notified when registration opens, please fill out the interest form below! 
-          <a class="large button" href="{{ site.interest_form_url }}">2019 Robotics Summer Camps Interest List Sign-Up</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns choose-program">
-          <h2>Build Robots. All Week Long.</h2>
-          <a class="large button elementary" href="elementary/">Exploration (1st - 4th)</a>
-          <a class="large button preteen" href="lower/">Curiosity (5th &amp; 6th)</a>
-          <a class="large button middle" href="upper/">Opportunity (7th &amp; 8th)</a>
-        </div>
-      </div>
+<div class="homepage">
+    <script>
+        $(document).ready(function() {
+            resize();
 
-      <div class="row">
-        <div class="large-8 columns">
-          <p><img src="assets/IMG_2276.jpg"/></p>
-        </div>
-        <div class="large-4 columns">
-          <h4>Engaging Challenges. <br/> Exciting Competition.</h4>
-          <p>Students build robots to complete interesting and complex challenges.
-            Then they compete against their fellow campers to learn new perspectives and problem solving.
-          </p>
-          <p><a class="secondary small button" href="about/">Find Out More</a></p>
-        </div>
-      </div>
+            $(".benefit").children(".cover").css({'height': $(".benefit").height()});
+            $(".benefit").children(".cover").children(".elaboration").addClass('clipped');
+        });
 
-      <div class="row">
-        <div class="large-4 columns">
-          <h4>Start a journey that can keep on going.</h4>
-          <p>Learn with robot kits used in student team competitions all over the globe.
-            The games, the software, the robots, all can live on even after the week is over.</p>
-          <p><a class="secondary small button" href="about/">Find Out More</a></p>
-        </div>
-        <div class="large-8 columns">
-          <p><img src="assets/IMG_2163.jpg"/></p>
-        </div>
-      </div>
+        $(window).resize(function() {
+            resize();
+        });
 
-      <div class="row">
-        <div class="large-8 columns">
-          <p><img src="assets/IMG_2141.jpg"/></p>
-        </div>
-        <div class="large-4 columns">
-          <h4>Help when they need it. </br> Freedom when they don't.</h4>
-          <p>Our counselors are always at hand to help. We maintain a 4:1 student to
-            counselor ratio that ensures that whenever campers need help with a
-            challenge, we're ready to help.</p>
-            <p><a class="secondary small button" href="our-staff/">Meet Our Staff</a></p>
-        </div>
-      </div>
+        function resize() {
+            $(".top").css({'min-height': $(window).height() - $("header").height() + '.px'});
+            $(".overlay").css({'min-height': $(window).height() - $("header").height() + '.px'});
+        }
+    </script>
 
-      <div class="row">
-        <div class="large-4 columns">
-          <h4>More than just your average robotics camp.</h4>
-          <p>Dodgeball, Ultimate Frisbee, Large Robot Demonstrations. We're more than just your average robotics camp.</p>
-        </div>
-        <div class="large-8 columns">
-          <p><img src="assets/rec_all1.jpg"/></p>
-        </div>
-      </div>
+    <div class="top">
+        <div class="overlay">
+            <div class="tagline">
+                <span class="big">Build Robots. All Week Long.</span>
+                <hr>
+                <div class="details">
+                    Robotics Summer Camp at Canyon Crest Academy is the ultimate week-long summer STEM experience for elementary and middle school students. 
+                </div>
 
-      <div class="row volunteer">
-        <div class="large-8 columns">
-            <h4>Looking To Volunteer? Paid Positions?</h4>
-            <p>Our camp is only as awesome as the people there. Join our awesome community of
-            volunteers and staff to help make a week of camp engaging and exciting for students. Plus, you get
-            play with robots all week!</p>
+                <a href="#whycamp" class="scroll_link" style="color: white;">
+                    <div class="large button animate">
+                        Learn More
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="large-4 columns">
-            <br/>
-            <a class="primary large button" href="/camp/jobs">Find Out More</a>
-        </div>
-      </div>
-
     </div>
+    
+    <div class="why" id="whycamp">
+        <div class="wrapper block">
+            <h1 class="short">What Happens At Camp?</h1>
+            <hr>
+            <div>
+                At Robotics Summer Camp at Canyon Crest Academy, students start on a journey that can continue for the rest of their lives—and it goes way further than just technical know-how. Campers develop skills in teamwork, collaboration, planning, and creative problem solving, as well as friendships and memories that last a lifetime.
+            </div>
+            
+            <div style="margin: 4px 0px 0px; text-align: center;">
+                <i>Hover over the pictures below to learn more about what makes our camp unique.</i>
+            </div>
+
+            <div class="benefits grid two_col">
+                {% for benefit in site.data.benefits %}
+                    <a href="{{ 'about/' | relative_url}}">
+                        <div class="benefit" style="background-image: url({{ 'assets/photos/homepage/' | append: benefit.bg | relative_url }})">
+                            <div class="cover animate">
+                                <h2>{{ benefit.title }}</h2>
+
+                                <div class="elaboration animate">
+                                    {{ benefit.description }}
+                                    <div style="margin: 9px 0px 0px; text-align: center;">
+                                        <i>Click to learn more...</i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                {% endfor %}
+
+                <!-- <div style="background: #6b6b6b; grid-area: d12"></div>
+                <div style="background: #6b6b6b; grid-area: d34"></div>
+                <div style="background: #6b6b6b; grid-area: d13"></div>
+                <div style="background: #6b6b6b; grid-area: d24"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="camp_levels" style="background: #e4e4e4;">
+        <div class="wrapper block">
+            <h1>Programs</h1>
+            <hr>
+            Each week, we offer each of <b>three levels</b> of camp to cater to students in grades first through eighth.
+            
+            {% include levels.html %}
+        </div>
+    </div>
+    
+    <div class="questions">
+        <div class="wrapper block">
+            <h1 class="short">Join us!</h1>
+            <hr>
+
+            <div>
+                We're glad to see you here, and we'd be really excited to have your students join us this summer! If you have any questions about our camp (or just want to reach out and say hi), feel free to contact us! Also, don't forget to check out our Frequently Asked Questions for helpful answers to common inquiries.
+            </div>
+
+            <div class="grid three_col" style="text-align: center; margin-top: 16px;">
+                <a href="{{ 'contact/' | relative_url }}"><div class="royal wide button medium animate">Contact Us</div></a>
+                <a href="{{ 'register/' | relative_url }}"><div class="red wide button medium animate">Register Now!</div></a>
+                <a href="{{ 'about#faq_title' | relative_url }}"><div class="navy wide button medium animate">FAQs</div></a>
+            </div>
+        </div>
+    </div>
+</div>

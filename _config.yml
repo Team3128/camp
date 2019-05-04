@@ -1,24 +1,13 @@
 # Site settings
-title: Robotics Summer Camp
+title: Robotics Summer Camps
 email: camp@team3128.org
-baseurl: "/camp" # the subpath of your site, e.g. /blog
+baseurl: /camp # the subpath of your site, e.g. /blog
 url: "http://team3128.github.io" # the base hostname & protocol for your site
-github_username:  team3128
 
 # Build settings
 markdown: kramdown
 
-# Camp settings
-priority_register_open_date_string: "March 7th"
-general_register_open_date_string: "March 21st"
-
-
-
 date_range: "July 15th – August 2nd"
+registration_open: 'no'
 
-interest_form_url: "https://team3128.us17.list-manage.com/subscribe?u=7c13b1f47db9b4f3392eda9f2&id=34f1dbd104"
-
-# volunteer_registration_form_url: "http://goo.gl/forms/qslncnCRCb"
-# elementary_form_url: "https://fs30.formsite.com/ccaf/form186/index.html"
-# lower_form_url: "https://fs30.formsite.com/ccaf/form184/index.html"
-# upper_form_url: "https://fs30.formsite.com/ccaf/form185/index.html"
+interest_link: "https://team3128.us17.list-manage.com/subscribe?u=7c13b1f47db9b4f3392eda9f2&id=34f1dbd104"

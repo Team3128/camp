@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="about_page">
+    <div class="scaling_bg" style="min-height: 400px; background-position: center center; background-image: url({{ 'assets/photos/contact/top.jpg' | relative_url }});">
+        <div class="page_title_cover vertically_center">
+            <div class="wrapper">
+                <div style="text-align: center;">
+                    <h1 class="short">Contact Us</h1>
+                    <hr style="background: white;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper block">
+        <h1 style="text-align: center;">General Inquiries</h1>
+        <hr>
+        <h2>For any general questions or comments relating to Robotics Summer Camps at Canyon Crest Academy, please contact at us <a href="mailto:camp@team3128.org">camp@team3128.org</a>.
+    </div>
+
+    <div class="block" style="background: #e4e4e4;">
+        <div class="wrapper">
+            <h1 style="text-align: center;">Supervisor Contacts</h1>
+            <hr>
+            <h2>If you need to contact someone during camp, please contact the respective camp supervisor:
+
+            <div class="grid three_col" style="text-align: center;">
+                {% for week in site.data.weeks %}
+                    <div style="font-size: 24px; padding: 12px 0px">
+                        <b>{{ week.name }}</b>
+                        <br>
+                        {{ week.start_date }} - {{ week.end_date }}
+                        <br><br>
+                        {{ week.contact }}
+                        <br>
+                        <a href="mailto:{{ week.email }}">{{ week.email }}</a>
+                        <br>
+                        {{ week.number }}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
