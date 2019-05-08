@@ -203,6 +203,10 @@
             display: grid;
             grid-template-columns: 150px 1fr;
 
+            @include media-query($small-width) {
+                grid-template-columns: 0px 1fr;
+            }
+
             .content {
                 padding: 8px;
             }
