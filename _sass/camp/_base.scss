@@ -91,7 +91,7 @@ a {
     
     &:hover {
         color: darken($navy, 15%);
-        text-decoration: none;
+        text-decoration: underline;
 
         footer & {
             color: darken(white, 15%);
