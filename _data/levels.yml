@@ -2,7 +2,7 @@
   color: 1b1464
   grades: 1st – 4th
   ages: 6 – 10 years
-  price: $410
+  price: $450
   registration_link: https://fs30.formsite.com/ccaf/ezd3xdlw2t/index.html?1581636985091
   description: 
     Campers learn the fundamentals of physics and basic engineering principles through building simple machines with VEX
@@ -37,22 +37,22 @@
     most points in our end of the week competition. And every step of the way we’ll have counselors and staff alongside them to
     make sure they get the guidance they need to reach their goal.
 
-- title: Opportunity
-  color: 0068a5
-  grades: 7th & 8th
-  ages: 12 – 14 years
-  price: $450
-  image_align: bottom
-  registration_link: https://fs30.formsite.com/ccaf/ongkadzqer/index.html?1581637709480
-  description:
-    Our upper camp is aimed at students who want to start learning text-based programming and working in larger groups to create
-    more complex and incredibly powerful robots. While still accessible for beginners, we use more advanced TETRIX robot sets that
-    enable campers to go beyond and build awesome robots.
-  long_description: 
-    This summer, we’re proud to offer a week of fun where campers can come and build awesome robots, run around, and have fun. 
-    All week we’ll be using TETRIX robot sets to build robots that complete complex challenges that teach campers mechanical and 
-    programming skills, while getting them excited about engineering and technology.
-    <br><br>
-    Not only will we get students going on build robots, they’ll also get to compete against each other by trying to score the 
-    most points in our end of the week competition. And every step of the way we’ll have counselors and staff alongside them to 
-    make sure they get the guidance they need to reach their goal.
+#- title: Opportunity
+#  color: 0068a5
+#  grades: 7th & 8th
+#  ages: 12 – 14 years
+#  price: $450
+#  image_align: bottom
+#  registration_link: https://fs30.formsite.com/ccaf/ongkadzqer/index.html?1581637709480
+#  description:
+#    Our upper camp is aimed at students who want to start learning text-based programming and working in larger groups to create
+#    more complex and incredibly powerful robots. While still accessible for beginners, we use more advanced TETRIX robot sets that
+#    enable campers to go beyond and build awesome robots.
+#  long_description:
+#    This summer, we’re proud to offer a week of fun where campers can come and build awesome robots, run around, and have fun.
+#    All week we’ll be using TETRIX robot sets to build robots that complete complex challenges that teach campers mechanical and
+#    programming skills, while getting them excited about engineering and technology.
+#    <br><br>
+#    Not only will we get students going on build robots, they’ll also get to compete against each other by trying to score the
+#    most points in our end of the week competition. And every step of the way we’ll have counselors and staff alongside them to
+#    make sure they get the guidance they need to reach their goal.
