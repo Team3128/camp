@@ -9,7 +9,16 @@
 
             <div class="description" style="flex: 1 0 auto;">{{ level.description }}</div>
 
-            <a href="{{ 'programs/#' | append: level.title | downcase | relative_url }}"><div class="button medium animate">Learn More</div></a>
+            <span>
+            {% if site.registration_open == 'yes' %}
+            <a style="color: lightyellow;" href="{{ level.registration_link }}">
+                <div class=" button medium animate" >Register Now!</div>
+            </a>
+            {% endif %}
+            <a href="{{ 'programs/#' | append: level.title | downcase | relative_url }}">
+                <div class="button medium animate">Learn More</div>
+            </a>
+            </span>
         </div>
     {% endfor %}
 </div>
