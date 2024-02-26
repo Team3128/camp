@@ -298,7 +298,7 @@ permalink: /about/
 
             <div class="textblock">
                 <h3>When is camp offered?</h3>
-                Our camp runs for three weeks from July 17 to August 4.
+                Our camp runs for three weeks from {{ site.date_range }}.
             </div>
 
             <div class="textblock">
@@ -317,7 +317,8 @@ permalink: /about/
                 {% if site.registration_open == 'yes' %}
                     To register for camp, head over to our <a href="{{ '/programs' | relative_url }}">programs page</a>, find the camp program that is for the grade levels of your camper, and click the green registration button!
                 {% else %}
-                    Camp registration hasn't opened yet, so if you'd like to be notied when registration opens, please fill out the <a href="{{ site.interest_link }}">2019 Robotics Summer Camp Interest Form</a>!
+                    <!-- Camp registration hasn't opened yet so if you'd like to be notied when registration opens, please fill out the <a href="{{ site.interest_link }}">2019 Robotics Summer Camp Interest Form</a>! -->
+                    Camp registration hasn't opened yet, please check back soon!
                 {% endif %}
 
                 We can't wait to see your campers this summer!
