@@ -79,7 +79,8 @@ permalink: /programs/
                     -->
                     Please be sure to read through our <a href = "{{ '/covid19#cancels_refunds' | relative_url}}">cancellations and refunds policies</a>.
                     {% else %}
-                    The registration period has not yet opened. However, if you are interested in enrolling campers this summer, let us know and we will alert you as soon as registration is open!
+                    <!-- The registration period has not yet opened. However, if you are interested in enrolling campers this summer, let us know and we will alert you as soon as registration is open! -->
+                    The registration period has not yet opened! Stay tuned for more information.
                     {% endif %}
                     <br>
                     <!--
@@ -90,10 +91,6 @@ permalink: /programs/
                         {% if site.registration_open == 'yes' %}
                         <a href="{{ level.registration_link }}">
                             <div class="red button small animate">Register Now!</div>
-                        </a>
-                        {% else %}
-                        <a href="{{ site.interest_link }}">
-                            <div class="red button small animate">Get Notified when Registration Opens!</div>
                         </a>
                         {% endif %}
                         <a href="{{ '/register#policies' | relative_url }}">
