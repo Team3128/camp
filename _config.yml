@@ -8,7 +8,7 @@ url: "http://team3128.github.io" # the base hostname & protocol for your site
 markdown: kramdown
 
 date_range: "July 15 - August 2"
-registration_open: 'no'
+registration_open: 'yes'
 
 # (2019) Camp Interest Form Link
 interest_link: "https://team3128.us17.list-manage.com/subscribe?u=7c13b1f47db9b4f3392eda9f2&id=34f1dbd104"
